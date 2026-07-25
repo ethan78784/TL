@@ -1,0 +1,59 @@
+{
+"id": "Beginning_Lonecat",
+"slideshow_folder": "slideshows",
+"next_process": "Game",
+    "music": {
+        "name": "Passages",
+        "fade_in": 10
+    },"scenes": [
+ {
+  "name": "prettyfamily",
+  "fade_in_start": 1,
+  "fade_in_end": 2,
+  "fade_out_start": 6,
+  "images": [
+        {"name": "dirt1", "pos": [0,0], "depth": 4, "shader": "Basic"}
+  ],
+   "camera_path": [ [10, 15, 0], [8.7, 5, 0.5] ]
+ },
+  {"name": "uhohfamily",
+  "fade_in_start": 7,
+  "fade_in_end": 8,
+  "fade_out_start": 12,
+  "images": [
+        {"name": "dirt2", "pos": [0,0], "depth": 1.5, "shader": "Basic"}
+  ],
+   "camera_path": [ [10, 15, 0], [8.7, 5, 0.5] ]
+  },
+    {
+      "name": "whatisthatthingy",
+      "fade_in_start": 13,
+      "fade_in_end": 14,
+      "fade_out_start": 19,
+      "images": [
+        {"name": "dirt3", "pos": [0,0], "depth": 0.5, "shader": "Basic"}
+      ],
+       "camera_path": [ [10, 15, 0], [8.7, 5, 0.5] ]
+    },
+    {
+      "name": "whattheflipdawdsfg",
+      "fade_in_start": 20,
+      "fade_in_end": 21,
+      "fade_out_start": 25,
+      "images": [
+        {"name": "dirt4", "pos": [0,0], "depth": 0.6, "shader": "Basic"}
+      ],
+       "camera_path": [ [10, 15, 0], [8.7, 5, 0.5] ]
+    },
+    {
+      "name": "whattheflighhg",
+      "fade_in_start": 26,
+      "fade_in_end": 27,
+      "fade_out_start": 30,
+      "images": [
+        {"name": "dirtfinal", "pos": [0,0], "depth": 0.6, "shader": "Basic"}
+      ],
+       "camera_path": [ [10, 15, 0], [8.7, 5, 0.5] ]
+       }
+    ]
+}

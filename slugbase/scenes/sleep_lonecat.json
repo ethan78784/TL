@@ -1,0 +1,17 @@
+{
+  "id": "Lonecat_Sleep",
+  "scene_folder": "scenes/loner/sleep",
+  "images": [
+    {"name": "flatsleep",        "pos": [0, 0], "depth":  1.0, "shader": "Basic"},
+    {"name": "wallsleep",        "pos": [0, 0], "depth":  3.5, "shader": "Basic"},
+    {"name": "backgrasssleep",   "pos": [0, 0], "depth":  2.8, "shader": "Basic"},
+    {"name": "grasssleep",       "pos": [0, 0], "depth":  2, "shader": "Basic"},
+    {"name": "lonecatsleep",     "pos": [0, 0], "depth":  1.5, "shader": "Basic"},
+    {"name": "frontgrasssleep",  "pos": [0, 0], "depth":  1.8, "shader": "Basic"}
+  ],
+  "idle_depths":    [2.3, 2.9],
+  "glow_pos":       [730, 335],
+  "mark_pos":       [740, 575],
+  "select_menu_pos":[-10, 100],
+  "slugcat_depth": 2.8
+}

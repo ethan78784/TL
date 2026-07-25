@@ -1,0 +1,41 @@
+{
+	"id": "lonelyscuggy",
+	"name": "The Loner",
+	"description": "Hopeless and alone, travelling the world aimlessly in search of an ending. <LINE>  Will your journey throughout an ending urban era be fearful or prideful?",
+	"features": {
+		"color": "3b0f0f",
+		"custom_colors": [
+			{"name": "Body","story": "3b0f0f"},
+			{"name": "Eyes", "story": "FFFFFF"}
+		],
+		"start_room": "PAC_SLEEP",
+		"reveal_mark_overtime": 5,
+		"lonecat/super_jump": 0.1,
+		"lonecat/explode_on_death": false,
+		"walk_speed": 1.8,
+		"tunnel_speed": 1.6,
+		"climb_speed": 1.7,
+		"throw_skill": 0,
+		"loudness": 2,
+		"karma": 2,
+		"cycle_length_min": 6,
+		"cycle_length_max": 10,
+		"food_min": 5,
+		"food_max": 7,
+		"the_mark": true,
+		"world_state": [ "Spear", "Red" ],
+		"select_menu_scene": "Slugcat_Screen",
+		"select_menu_scene_ascended": "Ghost_LoneCatty",
+		"sleep_scene": "Lonecat_Sleep",
+		"intro_slideshow":"Beginning_Lonecat",
+		"lonecat/mean_lizards": 3,
+		"guide_overseer": 1,
+		"guide_overseer_color": "653030",
+		"guide_region_priority": ["PAC"]
+	},
+	"alignments": {
+		"Lizards": {"like": 0.5,"strength": 0.2},
+		"Scavengers": {"like": 0,"locked": false}
+	}
+}
+	

@@ -1,0 +1,15 @@
+{
+  "id": "Slugcat_Screen",
+  "scene_folder": "scenes/loner/menu",
+  "images": [
+   {"name": "walls", "pos": [0, 0], "depth":  3.5, "shader": "Basic"},
+   {"name": "slugcatlone",   "pos": [0, 0], "depth":  2.5, "shader": "Basic"},
+   {"name": "pipes",   "pos": [0, 0], "depth":  2.0, "shader": "Basic"},
+   {"name": "grass",   "pos": [0, 0], "depth":  1.5, "shader": "Basic"}
+  ],
+  "idle_depths":    [2.3, 2.9],
+  "glow_pos":       [730, 335],
+  "mark_pos":       [740, 575],
+  "select_menu_pos":[-10, 100],
+  "slugcat_depth": 2.8
+}

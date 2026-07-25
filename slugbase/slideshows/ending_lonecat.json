@@ -1,0 +1,54 @@
+{
+"id": "Ending_Lonecat",
+"slideshow_folder": "slideshows",
+"next_process": "Statistics",
+    "music": {
+        "name": "RW_Outro_Theme",
+        "fade_in": 10
+    },"scenes": [
+ {
+  "name": "swimmy",
+  "fade_in_start": 1,
+  "fade_in_end": 5,
+  "fade_out_start":18 ,
+  "images": [
+        {"name": "cloneslc", "pos": [0,0], "depth": 1, "shader": "Basic"},
+        {"name": "descendlc", "pos": [0,0], "depth": 4, "shader": "Basic"}
+  ],
+   "camera_path": [ [10, 15, 0], [8.7, 5, 0.5] ]
+ },
+  {"name": "sadded",
+  "fade_in_start": 20,
+  "fade_in_end": 23,
+  "fade_out_start": 38,
+  "images": [
+        {"name": "lonecatface", "pos": [0,0], "depth": 1, "shader": "Basic"}
+  ],
+   "camera_path": [ [10, 15, 0], [8.7, 5, 0.5] ]
+  },
+    {
+      "name": "tuesdaystbh",
+      "fade_in_start": 31,
+      "fade_in_end": 34,
+      "fade_out_start": 40,
+      "images": [
+        {"name": "backgroundred", "pos": [0,0], "depth": 1, "shader": "Basic"},
+        {"name": "redlizard", "pos": [0,0], "depth": 1, "shader": "Basic"},
+        {"name": "lcappon", "pos": [0,0], "depth": 0.6, "shader": "Basic"}
+      ],
+       "camera_path": [ [10, 15, 0], [8.7, 5, 0.5] ]
+    },
+    {
+      "name": "majorstuffrighthere",
+      "fade_in_start": 42,
+      "fade_in_end": 45,
+      "fade_out_start": 60,
+      "images": [
+        {"name": "flatend", "pos": [0,0], "depth": 1, "shader": "Basic"},
+        {"name": "sleepinglc", "pos": [0,0], "depth": 1.6, "shader": "Basic"},
+        {"name": "pastlc", "pos": [0,0], "depth": 2, "shader": "Basic"}
+      ],
+       "camera_path": [ [10, 15, 0], [8.7, 5, 0.5] ]
+    }
+  ]
+}
