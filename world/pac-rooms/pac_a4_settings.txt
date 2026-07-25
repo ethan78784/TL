@@ -1,0 +1,11 @@
+Template: NONE
+DangerType: Flood
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.0480924
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 4501
+EffectColorA: 18
+EffectColorB: 11
+AmbientSounds: OMNI><AM_SUB-MysticCave2.ogg><755.8708><223.1594><0.2173913><1, OMNI><AM_ENV-Outside.ogg><726.6658><473.6118><0.5><1, 

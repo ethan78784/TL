@@ -1,0 +1,10 @@
+﻿{
+	"id": "ethan.lonescug",
+	"name": "The Loner",
+	"version": "0.1.0",
+	"authors": "Ethan78784",
+	"description": "The Loner's Campaign.",
+	"requirements": [ "moreslugcats","watcher", "slime-cubed.slugbase", "customslugcatutils", "magica.extendedslugbasefeatures", "iteratorCreator", "ludocrypt.betterdecals", "crs", "regionkit", "lb-fgf-m4r-ik.modpack" ],
+	"requirements_names": [ "More Slugcats Expansion","The Watcher", "SlugBase", "Custom Slugcat Utils", "Extended Slugbase Features", "Iterator Creator", "BetterDecals", "Custom Regions Support", "RegionKit", "The M4rbelous Entity Pack" ],
+	"tags": [ "Custom Slugcat", "Campaigns" ]
+}

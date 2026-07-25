@@ -1,0 +1,12 @@
+Template: NONE
+DangerType: None
+RainIntensity: 0
+RumbleIntensity: 0
+RandomItemDensity: 0
+RandomItemSpearChance: 0
+Palette: 26
+EffectColorA: 0
+EffectColorB: 0
+Effects: SunBlock-1-9-139, SSMusic-1-191-88, ZeroG-1-20-20, 
+PlacedObjects: LightSource><337.5541><191.7906><1~Environment~-475~588~50~86.60254~0~0~None~0~0, LightSource><667.9467><502.536><1~Environment~-1546~-522~50~86.60254~0~0~None~0~0, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><727.8103><484.8133><0.5><1, 

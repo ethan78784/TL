@@ -1,0 +1,8 @@
+random:It's still warm... this was in use recently.
+random:A pearl... This one is crystal clear - it was used just recently.
+random:Would you like me to read this pearl?
+random:You would like me to read this?
+random:Let's see... A pearl...
+random:And this one is fresh! It was not long ago this data was written to it!
+random:This pearl has been written to just now!
+random:Strange... it seems to have been used not too long ago.

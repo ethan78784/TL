@@ -1,0 +1,9 @@
+1:Ah, you would like me to read this?<LINE>It's a bit dusty, but I will do my best. Hold on...
+2:Another pearl! You want me to read this one too? Just a moment...
+3:And yet another one! I will read it to you.
+4:Another? Lets look into it.
+random:Another pearl, lets read.
+random:Here we go again, little archeologist. Let's read your pearl.
+random:Yes thank you, lets look at this.
+random:And yet another one! I will read it to you.
+random:... You're getting quite good at this you know. A little archeologist beast. Now, let's see what it says.

@@ -1,0 +1,7 @@
+Template: NONE
+Clouds: 0
+Palette: 4503
+EffectColorA: 11
+EffectColorB: 18
+Effects: Ancient Urban View-1-20-20, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><745.8004><563.4874><0.5><1, OMNI><AM_ENV-Outside.ogg><756.5118><472.1996><0.5><1, 

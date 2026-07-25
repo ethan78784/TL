@@ -1,0 +1,8 @@
+Template: NONE
+Palette: 4501
+EffectColorA: 19
+EffectColorB: 18
+Effects: Moth-0.04347826-20-20, 
+PlacedObjects: SeedCob><1611.045><263.8428><0~0~1~4, DeadSeedCob><1541.804><225.0716><, DeadSeedCob><1703.928><335.3096><, 
+AmbientSounds: OMNI><AM_SUB-MysticCave2.ogg><701.1938><224.4508><0.5><1, 
+FadePalette: 4503, 0.4175949, 0

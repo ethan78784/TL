@@ -1,0 +1,1 @@
+GATE_PAC_FFR : 5 : 5

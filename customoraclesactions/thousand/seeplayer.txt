@@ -1,0 +1,4 @@
+action:setbehavior{slumberparty}
+action:givemark{waituntil}<R>!hasmark
+action:setbehavior{aftergivemark}
+action:endevent

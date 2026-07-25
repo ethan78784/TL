@@ -1,0 +1,6 @@
+Template: NONE
+Palette: 4504
+EffectColorA: 4
+EffectColorB: 11
+Effects: SkyBloom-0.4130435-20-20, Salt Flakes-0.3043478-184-161, 
+AmbientSounds: OMNI><AM_ENV-WinterHum.ogg><746.9494><399.9848><0.5><1, OMNI><AM_ENV-WinterTrees.ogg><745.8069><385.6979><0.5><1, OMNI><Noise Wind.wav><750.5679><565.5619><0.5><1, 

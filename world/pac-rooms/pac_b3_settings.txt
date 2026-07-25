@@ -1,0 +1,7 @@
+Template: NONE
+Clouds: 0
+Palette: 502
+EffectColorA: 9
+EffectColorB: 2
+Effects: Ancient Urban View-1-271-222, 
+WetTerrain: OFF

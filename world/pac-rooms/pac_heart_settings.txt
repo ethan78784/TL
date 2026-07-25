@@ -1,0 +1,7 @@
+Template: NONE
+Palette: 4501
+EffectColorA: 2
+EffectColorB: 17
+Effects: Salt Flakes-0.2391304-20-20, Coldness-0.2934783-165-214, 
+AmbientSounds: OMNI><Noise Wind.wav><763.4473><566.533><0.3586957><1, OMNI><AM_SUB-MysticCave2.ogg><727.1465><220.9212><0.2391304><1, 
+FadePalette: 4504, 0.5217391, 0.7934783

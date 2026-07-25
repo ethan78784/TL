@@ -1,0 +1,19 @@
+Template: NONE
+DangerType: Flood
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.03516624
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.7934783
+Grime: 0.1195652
+RandomItemDensity: 0.5108696
+Palette: 4500
+EffectColorA: 11
+EffectColorB: 18
+TerrainGooHeight: 1
+TerrainPalette: rot
+PlacedObjects: DayNightSettings><228.4921><256.5501><5~8.660254~28~23, 
+AmbientSounds: OMNI><am_sub-mysticcave1.ogg><691.5595><116.939><0.4891304><1, SPOT><am_env-outside.ogg><734.0109><355.5503><0.6847826><1><175.0109><562.5503><-108.3553><-73.35529><0.09782609><0.1, SPOT><am_env-cricketswnd.ogg><748.1252><427.9063><0.5><1><209.1252><560.9063><-93.35529><-58.35535><0><0.1, 

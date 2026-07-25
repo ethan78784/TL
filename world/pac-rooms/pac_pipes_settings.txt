@@ -1,0 +1,9 @@
+Template: NONE
+DangerType: Flood
+BkgDroneVolume: 0
+Palette: 4500
+EffectColorA: 11
+EffectColorB: 18
+Effects: Fog-0.08695652-20-20, Darkness-0.3586957-233-96, RockFlea-0.1195652-0-0, 
+PlacedObjects: WallLight><1439.279><-2.802094><100~243~1439.279~-2.802094~-3~278~101~0~101~279~0~0.1630435~1~False~SkyColor~False~False~Always~Hard, PlacedRats><1310.095><492.377><, PlacedRats><508.084><167.0685><, 
+AmbientSounds: OMNI><AM_IND-Utility03.ogg><366.6992><473.2322><0.5><1, SPOT><AM_ENV-Outside.ogg><490.1295><556.4025><0.5><1><2426.129><95.40247><-91.35535><-17.35534><0><0.1, SPOT><AM_ENV-WallHum.ogg><740.816><427.5612><0.5><1><586.816><415.5612><-193.3553><-58.35535><0><0.1, 

@@ -1,0 +1,18 @@
+Template: NONE
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0.01245999
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0
+RandomItemDensity: 0
+RandomItemSpearChance: 0
+Palette: 2003
+EffectColorA: 19
+EffectColorB: 9
+Effects: SunBlock-1-20-20, Darkness-0.4782609-93-108, Bloom-0.5434783-70-157, 
+PlacedObjects: LightSource><486><372.5966><1~Environment~-609~115~54.98022~36.11365~0~0~None~0~0, LightSource><289><147.0986><1~EffectColor1~-378.0469~524.0667~50~86.60254~0~0~None~0~0, LightSource><677.6365><542.2361><1~EffectColor2~-589.9354~-16.04443~50~86.60254~0~0~None~0~0, 

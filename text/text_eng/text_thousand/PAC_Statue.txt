@@ -1,0 +1,9 @@
+0:Its the description of a new statue on display, but not a newly built one.:7
+
+0:It seems to be describing a restoration project on the architecture <LINE> and statues below the earth, where an ancient civilization used to roam.:10
+
+0:This pearl is a bit old itself, where did you find this little creature?:5
+
+0:In fact, this was dated way before I was built! Maybe you found this in an abandoned city? <LINE> I only know of the one below my structure.:10
+
+0:Either way, this pearl is very valuable given its date.<LINE> I would hold on to this if I were you!:8

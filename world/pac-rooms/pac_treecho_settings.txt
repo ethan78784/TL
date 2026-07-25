@@ -1,0 +1,16 @@
+Template: NONE
+DangerType: Rain
+CeilingDrips: 0
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04999999
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0
+BkgDroneVolume: 0
+Palette: 4504
+EffectColorA: 12
+EffectColorB: 10
+Effects: SkyAndLightBloom-0.05434782-20-20, Fog-0.5-13-61, Coldness-0.4673913-259-92, WindDirection-0,0.25-293-163, Salt Flakes-0.5652174-136-158, 
+PlacedObjects: EEGhostSpot><1442.304><612.9592><, 
+AmbientSounds: OMNI><AM_ENV-WinterTrees.ogg><501.1769><380.3138><0.5><1, OMNI><AM_ENV-WinterHum.ogg><529.1769><487.5638><0.7173913><1, OMNI><Noise Wind.wav><751.8002><567.2399><0.2826087><1, 

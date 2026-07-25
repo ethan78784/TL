@@ -1,0 +1,12 @@
+Template: NONE
+DangerType: Thunder
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0.04993451
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0
+Palette: 4503
+EffectColorA: 0
+EffectColorB: 0
+Effects: Ancient Urban View-1-20-20, Bloom-0.9202556-238.4573-178.6222, Moth-0.03093288-126.0469-106.0889, Darkness-0.5760869-198-69, 

@@ -1,0 +1,18 @@
+Template: NONE
+DangerType: FloodAndRain
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.1630435
+BkgDroneVolume: 0
+Palette: 4500
+EffectColorA: 11
+EffectColorB: 18
+Effects: Moth-0.05413271-20-20, SkyAndLightBloom-0.0326087-227-96, Desaturation-0-209-55, 
+PlacedObjects: FluxWaterfall><920><2100><5~0.9130435~D~-2.543478~1.23913, CustomDecal><225.1469><1755.329><-39~154~220~193~263~55~-154~99~0.5434783~1~0~junkgraffitikogad~0.7282609~0.5108696~0.7282609~0.5108696~0.7282609~0.5108696~0.7282609~0.5108696, InsectGroup><1001.607><1949.92><-292~124~0~0~StandardFly~0.07608695, CustomDecal><863.0569><1228.553><43~199~343~140~288~-67~-379~-63~0~1~0~junkgraffiti2~0.5~0~0.5~0~0.5~0~0.5~0, 
+AmbientSounds: OMNI><AM_ENV-Outside.ogg><422.0099><490.5503><0.6086956><1, OMNI><AM_ENV-LightWind.ogg><689.0583><578.307><0.3699188><1, OMNI><RWTW_AmbDrips_04.ogg><454.7852><349.6969><0.3152174><1, OMNI><SO_WAT-LightFlow.ogg><407.8681><192.8497><0.5><1, SPOT><AM_ENV-WallHum.ogg><733.4169><431.3897><0.5><1><257.4169><2808.39><392.6447><-375.3553><0><0.1, 
+BackgroundOffset: -5000,-5000

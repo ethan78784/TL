@@ -1,0 +1,40 @@
+id:dmcopy
+room:DM_AIC
+region:Looks To The Moon
+name:Looks To The Moon
+icon:tidicon
+defaultBehavior:default{slumberparty}
+palette:26,26
+antennacondition:3,3
+ruined:false
+iconName:GuidanceMoon
+hasCollection:true
+hasPearls:true
+readsPearls:true
+color:65,164,232
+x:350
+y:350
+hasThirdEye:true
+thirdEyeColor:221,77,255
+thirdEyeSprite:Circle20
+thirdEyeScale:0.2
+metalColor:158,144,155
+hasHalo:true
+haloColor:65,164,232
+hasGown:true
+ruinedGown:false
+fromColor:241,137,61
+toColor:239,92,26
+hueShift: Float
+saturationShift: Float
+lightShift: Float
+eyeColor:31,33,27
+ruinedArm:false
+nameForPlayer:creature
+hasKillSprite:true
+initialSwarmers:-1
+acceptsneuronflies:false
+pearlColor:255,143,12:18,135,189:210,210,210
+deflectSpears:true
+score:40
+modules:pearlReaderModule

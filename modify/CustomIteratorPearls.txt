@@ -1,0 +1,3 @@
+[ADD]SadPearl_PAC:865853:4B140E:PAC_Sad:Loner
+[ADD]ChewToy_PAC:111111:ff00db:PAC_Chew:Loner
+[ADD]DescPearl_PAC:006fc1:89e2ff:PAC_Statue:Loner

@@ -1,0 +1,6 @@
+Template: pac_settingstemplate_inside
+Palette: 4503
+EffectColorA: 19
+EffectColorB: 11
+Effects: Darkness-0.5869565-317-116, Bloom-0.8695652-32-109, 
+PlacedObjects: LightSource><902.0261><530.0518><0.6630435~EffectColor1~-255~-16~50~86.60254~0~0~None~0.6956522~0, WallLight><609.3273><586.399><-366~-37~609.3273~586.399~-132~-189~344~-3~376~-202~0.5760869~0.9021739~0.1086956~False~SkyColor~False~False~Always~Soft, LightSource><900.3511><531.1334><0.2717391~White~-83~78~50~86.60254~1~0~None~0~0, 

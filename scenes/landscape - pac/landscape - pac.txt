@@ -1,0 +1,16 @@
+pacbackground : 1
+pillars : 2
+plantsspiral : 3
+vinesback : 4
+pacstatue : 5
+pacground : 6
+pacvinesfront : 7
+pacmoths : 8
+pacfront : 9
+
+blurMin : 2
+blurMax : 5
+idleDepths : 1
+idleDepths : 1
+idleDepths : 1
+idleDepths : 1

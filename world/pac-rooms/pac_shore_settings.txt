@@ -1,0 +1,12 @@
+Template: NONE
+RainIntensity: 1
+RumbleIntensity: 1
+Clouds: 0.2391304
+BkgDroneVolume: 0.5869565
+BkgDroneNoThreatVolume: 0
+Palette: 4501
+EffectColorA: 11
+EffectColorB: 18
+Effects: DirtyWater-0.2173913-112-18, Fog-0.6847826-34-99, Ancient Urban View-1-298-136, MosquitoInsects-0.1195652-682-435, Flies-0.173913-791-353, WaterGlowworm-0.1086956-528-341, Moth-0.05434782-179-62, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><503.1283><596.9087><0.5><1, OMNI><AM_WAT-Shoreline.ogg><525.9739><442.4483><0.2826087><1, OMNI><RWTW_AmbDrips_01.ogg><185.4077><430.0726><0.3695652><1, OMNI><RWTW_Amb_AiryWind_01.ogg><324.9713><324.6979><0.2934783><1, OMNI><AM_ENV-Outside.ogg><331.3906><494.6077><0.5><1, SPOT><am_sub-mysticcave2.ogg><733.3413><519.428><0.326087><1><2994.341><1435.428><-167.3553><-77.35535><0><0.1, 
+FadePalette: 0, 0, 0, 0, 0, 0, 0

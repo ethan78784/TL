@@ -1,0 +1,7 @@
+Template: NONE
+Palette: 4501
+EffectColorA: 7
+EffectColorB: 2
+Effects: Coldness-0.1521739-20-20, 
+AmbientSounds: OMNI><AM_SUB-MysticCave2.ogg><770.1862><216.3232><0.5><1, OMNI><Noise Wind.wav><716.7701><560.699><0.173913><1, 
+FadePalette: 4504, 0.2173913

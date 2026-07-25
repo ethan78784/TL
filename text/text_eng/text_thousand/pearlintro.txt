@@ -1,0 +1,8 @@
+1:Oh a data pearl! Would you like to me reed it?
+2:Another pearl! I will read this one as well.
+3:Another? I appreciate all the gifts, little one!
+4:A pearl, lets take a look.
+random:Thank you little one, lets read this.
+random:Yes thank you, lets take a look.
+random:Such a scholar! Lets take a peek.
+random:Another! I'm glad you are enjoying my readings little one.

@@ -1,0 +1,22 @@
+IF|HasMark
+SP|turnoff
+SP|gravity|1
+ELSE
+SP|turnoff
+SP|gravity|1
+SP|behavior|Investigate
+WAIT|80
+SP|karma
+END
+
+What is this?|0|20
+
+Some kind of animal has appeared in my chamber.|0|20
+
+I don't know how you got in here, but I do not need company right now.|0|20
+
+Please, little.. thing. Leave this once.|0|20
+
+If you want someone to bother, go to my neighbor Looks to the Moon. <LINE> She will appreciate this more than me.|10|30
+
+Now go.|0|20

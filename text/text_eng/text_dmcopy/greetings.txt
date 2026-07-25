@@ -1,0 +1,8 @@
+1:I hope you enjoy staying here.
+2:Welcome back little creature!
+3:Hello again, little critter.
+4:Welcome again small creature.
+random:Hello again!
+random:Welcome back.
+random:Greetings, little creature!
+random:Welcome again.

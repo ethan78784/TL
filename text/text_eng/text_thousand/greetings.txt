@@ -1,0 +1,19 @@
+1:Be comfortable, little one.
+2:Oh you're back! I hope you can relax while you're here.
+3:And you have appeared again! You're very persistent, little one.
+4:And here you are again. Do you want something from me?
+5:Ah. You are very comfortable here, aren't you? <NextChatBox> Maybe you should find something to bring me next time.
+
+random:Welcome back, did you have something for me?
+
+random:Hello again, little critter.
+
+random:Yes, welcome back litte one.
+
+random:There is more to explore than my can, you know.<NextChatBox> Not that your company bothers me, little critter.
+
+random:Hello there little one.
+
+random:Welcome, welcome.
+
+random:Again you visit. Welcome back.

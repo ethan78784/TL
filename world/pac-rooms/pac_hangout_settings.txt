@@ -1,0 +1,13 @@
+Template: pac_settingstemplate_inside
+DangerType: Flood
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.03430947
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.1630435
+BkgDroneVolume: 0.3543479
+Palette: 4500
+PlacedObjects: DayNightSettings><1425.305><255.8078><5~8.660254~28~23, DayNightSettings><467.8196><393.9136><5~8.660254~23~25, 

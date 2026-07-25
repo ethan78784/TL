@@ -1,0 +1,7 @@
+Template: NONE
+DangerType: FloodAndRain
+RainIntensity: 100
+RumbleIntensity: 100
+Clouds: 0
+Palette: 4500
+EffectColorB: 18

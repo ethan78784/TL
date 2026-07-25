@@ -1,0 +1,8 @@
+Template: NONE
+Palette: 4503
+EffectColorA: 2
+EffectColorB: 18
+Effects: SkyBloom-0.4782609-20-20, Ancient Urban View-1-127-115, 
+PlacedObjects: DangleFruit><78.16528><565.3626><0~0~2~5, DangleFruit><149.0654><606.577><0~0~2~5, DangleFruit><288.9627><549.4465><0~0~2~5, 
+AmbientSounds: OMNI><AM_ENV-Outside.ogg><714.563><475.9398><0.5><1, 
+BackgroundOffset: 217.3913,0

@@ -1,0 +1,7 @@
+Template: NONE
+Palette: 4504
+EffectColorA: 0
+EffectColorB: 10
+Effects: SkyBloom-0.5543478-20-20, Salt Flakes-0.423913-135-163, 
+PlacedObjects: GooieDuck><974.8948><972.8618><0~0~1~5, GooieDuck><1003.058><987.6932><0~0~1~5, GooieDuck><950.0012><971.1998><-136~72~1~5, GooieDuck><1024.317><984.6692><117~216~1~5, 
+AmbientSounds: OMNI><Noise Wind.wav><736.9147><567.8191><0.3913043><1, OMNI><AM_ENV-WinterHum.ogg><728.9477><403.2801><0.5><1, OMNI><AM_ENV-WinterTrees.ogg><443.1666><451.1393><0.5><1, 

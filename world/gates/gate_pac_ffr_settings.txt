@@ -1,0 +1,6 @@
+Template: NONE
+Clouds: 0
+Palette: 4504
+EffectColorA: 4
+EffectColorB: 11
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><739.0504><567.2367><0.5><1, 

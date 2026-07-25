@@ -1,0 +1,13 @@
+CeilingDrips: 0
+RumbleIntensity: 1
+Clouds: 0.2282609
+Grime: 0.5108696
+Palette: 15
+EffectColorA: 12
+EffectColorB: 18
+Effects: Moth-0.6086956-286-113, 
+PlacedObjects: PlacedRats><3139.332><64.85867><, PlacedRats><381.6636><85.81961><, PlacedRats><953.1535><77.8782><, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><703.979><566.6989><0.3586957><1, OMNI><AM_ENV-Outside.ogg><728.9489><470.4786><0.3913043><0.7065217, OMNI><AM_ENV-CricketsWnd.ogg><425.867><479.8378><0.5><1, OMNI><AM_RAIN-Rumbles.ogg><480.6279><597.4084><0.25><1, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>rw_149 - come and go<eA>vol<eB>0.4086961<eA>prio<eB>1<eA>mxThrt<eB>0.3913043<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>5<eA>rest<eB>5<eA>fadeIn<eB>32.6087<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>1<eA>stopAtGate<eB>1<tA>multiUse<tB>1<tA>toCycle<tB>3<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>653.9495<tB>402.2636<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>3378.949<tB>135.2636<tA>handlePos<tB>-247.3553<tB>-6.355347, RegionBump<tA>event<tB>NONE<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>682.1013<tB>171.3838<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB>, 
+BackgroundOffset: 5000,543.4781
+BackgroundType: atc_oe_treetopview

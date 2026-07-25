@@ -1,0 +1,39 @@
+id:thousand
+room:TID_AI
+region:Thousands Into Dust
+name:Thousands Into Dust
+iconName:tidicon
+hasCollection:true
+defaultBehavior:default{slumberparty}
+palette:2000,2000
+antennacondition:3,3
+ruined:false
+hasPearls:true
+readsPearls:true
+color:155,141,141
+x:350
+y:350
+hasThirdEye:true
+thirdEyeColor:119,30,30
+thirdEyeSprite:Circle20
+thirdEyeScale:0.2
+metalColor:30,17,17
+hasHalo:true
+haloColor:213,78,78
+hasGown:true
+ruinedGown:false
+fromColor:95,0,0
+toColor:151,0,0
+hueShift: Float
+saturationShift: Float
+lightShift: Float
+eyeColor:26,2,2
+ruinedArm:false
+nameForPlayer:critter
+hasKillSprite:true
+initialSwarmers:-1
+acceptsneuronflies:false
+pearlColor:219,200,200:165,63,63:106,80,80
+deflectSpears:true
+score:30
+modules:pearlReaderModule

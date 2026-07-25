@@ -1,0 +1,9 @@
+SpawnOnDifficulty
+priming : true
+size : 0.7
+minkarma : 1
+minkarmacap : 10
+radius : 1
+echosong : CC
+room : PAC_TREECHO
+defaultflip : 1
