@@ -18,6 +18,11 @@ namespace TL.ethan.theloner.misc
         // (Identical to how it works in MSCRoomSpecificScript and its vanilla counterpart)
         public static void AddRoomSpecificScript(Room room) {
 
+            // This can be absent when loading sometimes!! Will lead to an infinite loop if not checked...
+            if (room.game == null) {
+                return;
+            }
+            
             string roomID = room.abstractRoom.name;
             
             // Story-related scripts
@@ -26,7 +31,7 @@ namespace TL.ethan.theloner.misc
                 // Add any scripts with keys that match the roomID
                 foreach (var entry in _STORY_EVENTS) {
                     if (roomID.Equals(entry.Key)) {
-                        Custom.Log("Adding RoomSpecificScript for room \"" + entry.Key + "\"");
+                        Debug.Log("Adding RoomSpecificScript for room \"" + entry.Key + "\"");
                         room.AddObject(entry.Value);
                     }
                 }
@@ -62,8 +67,12 @@ namespace TL.ethan.theloner.misc
                     room.game.cameras[0].hud.textPrompt.AddMessage(this.room.game.manager.rainWorld.inGameTranslator.Translate("Test!"), 120, 200, true, true);
                     ++_messageCount;
                 }
-                
-                
+
+                Debug.Log(_player.mainBodyChunk.pos.x);
+
+                (_player.graphicsModule as PlayerGraphics)?.LookAtPoint(new Vector2(0, 100), 10f);
+
+
             }
             
             

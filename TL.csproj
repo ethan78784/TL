@@ -60,8 +60,9 @@
     </ItemGroup>
     <ItemGroup>
       <Content Include="build\TL.dll" />
-      <Content Include="mod\newest\plugins\SlugbaseExtendedExtended.dll" />
-      <Content Include="mod\newest\plugins\TL.dll" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="build\" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

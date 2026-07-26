@@ -1,7 +1,9 @@
 using System;
 using System.Security.Permissions;
 using BepInEx;
+using RWCustom;
 using TL.ethan.theloner.misc;
+using UnityEngine;
 
 
 #pragma warning disable CS0618 // SecurityAction.RequestMinimum is obsolete. However, this does not apply to the mod, which still needs it. Suppress the warning indicating that it is obsolete.
@@ -15,12 +17,15 @@ namespace TL.ethan.theloner {
     [BepInPlugin(PLUGIN_GUID, PLUGIN_NAME, PLUGIN_VERSION)]
     public class TheLonerMain : BaseUnityPlugin {
         
-        public const string PLUGIN_GUID = "ethan.lonescug";
+        public const string PLUGIN_GUID = "ethan.unfortunatecircumstances";
         public const string PLUGIN_NAME = "The Loner";
         public const string PLUGIN_VERSION = "0.1.0";
-        public bool initalized;
+        public bool initalized = false;
+        
+        
         
         public void OnEnable() {
+            Debug.LogWarning("Initalizing!!");
             
             // Only ever do this once– we set a flag past this point, and never run any of this again if that flag has been set
             // This is so tools like RainReloader don't double-subscribe to hooked functions, which would cause chaos
@@ -28,24 +33,30 @@ namespace TL.ethan.theloner {
             initalized = true;
             
             // Hook subscribers
-            On.RoomSpecificScript.AddRoomSpecificScript += new On.RoomSpecificScript.hook_AddRoomSpecificScript(OnAddRoomSpecificScripts);
+            
+            
+            On.Room.Loaded += OnLoadRoom;
 
         }
 
+        // Only used for hot-reload tools such as RainReloader, but they're very useful, so I decided to add support for those anyways
         public void OnDisable() {
             
             if (!initalized) return;
             initalized = false;
             
             // Unhook subscribers
-            On.RoomSpecificScript.AddRoomSpecificScript -= new On.RoomSpecificScript.hook_AddRoomSpecificScript(OnAddRoomSpecificScripts);
-            
+
+            On.Room.Loaded -= OnLoadRoom;
+
         }
 
 
-        private void OnAddRoomSpecificScripts(On.RoomSpecificScript.orig_AddRoomSpecificScript originalCall, Room room) {
+        private void OnLoadRoom(On.Room.orig_Loaded originalCall, Room room) {
             originalCall(room);
             LORoomSpecificScripts.AddRoomSpecificScript(room);
         }
+        
+        
     }
 }
