@@ -1,13 +1,15 @@
 
 
 using System.Collections.Generic;
+using RWCustom;
+using UnityEngine;
 
 namespace TL.ethan.theloner.misc 
 {
     public static class LORoomSpecificScripts {
 
         // Dictionary of room names to an instance of the class responsible for this roomspecificscript
-        private static Dictionary<string, UpdatableAndDeletable> STORY_EVENTS = new Dictionary<string, UpdatableAndDeletable> {
+        private static readonly Dictionary<string, UpdatableAndDeletable> _STORY_EVENTS = new Dictionary<string, UpdatableAndDeletable> {
                 { "PAC_OPEN", new LonerTestScript() }
         };
         
@@ -22,8 +24,9 @@ namespace TL.ethan.theloner.misc
             if (room.game.IsStorySession) {
                 
                 // Add any scripts with keys that match the roomID
-                foreach (var entry in STORY_EVENTS) {
+                foreach (var entry in _STORY_EVENTS) {
                     if (roomID.Equals(entry.Key)) {
+                        Custom.Log("Adding RoomSpecificScript for room \"" + entry.Key + "\"");
                         room.AddObject(entry.Value);
                     }
                 }
@@ -42,10 +45,27 @@ namespace TL.ethan.theloner.misc
             // I technically don't need to manually set the room here, or even pass it to its constructor(?)
             // This allows me to store all of these events in a biggol list above, for better organization
             #endregion
+
+            private Player _player;
+            private int _messageCount = 0;
             
-            public LonerTestScript() {
+            public override void Update(bool eu) {
+                base.Update(eu);
+                
+                if (_player == null && room.game.Players.Count > 0 && room.game.Players[0].realizedCreature != null)
+                    _player = room.game.Players[0].realizedCreature as Player;
+                
+                if (_player == null || _player.room != room || room.game.cameras[0].hud == null || room.game.cameras[0].hud.textPrompt.messages.Count >= 1)
+                    return;
+
+                if (_messageCount == 0) {
+                    room.game.cameras[0].hud.textPrompt.AddMessage(this.room.game.manager.rainWorld.inGameTranslator.Translate("Test!"), 120, 200, true, true);
+                    ++_messageCount;
+                }
+                
                 
             }
+            
             
         }
         

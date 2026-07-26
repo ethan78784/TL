@@ -18,7 +18,7 @@
         <DebugSymbols>true</DebugSymbols>
         <DebugType>none</DebugType>
         <Optimize>false</Optimize>
-        <OutputPath>mod\newest\plugins\</OutputPath>
+        <OutputPath>build\</OutputPath>
         <DefineConstants>DEBUG;TRACE</DefineConstants>
         <ErrorReport>prompt</ErrorReport>
         <WarningLevel>4</WarningLevel>
@@ -27,7 +27,7 @@
         <PlatformTarget>AnyCPU</PlatformTarget>
         <DebugType>none</DebugType>
         <Optimize>true</Optimize>
-        <OutputPath>mod\newest\plugins\</OutputPath>
+        <OutputPath>build\</OutputPath>
         <DefineConstants>TRACE</DefineConstants>
         <ErrorReport>prompt</ErrorReport>
         <WarningLevel>4</WarningLevel>
@@ -46,6 +46,9 @@
         <Reference Include="System.Core"/>
         <Reference Include="System.Data"/>
         <Reference Include="System.Xml"/>
+        <Reference Include="UnityEngine">
+          <HintPath>..\..\..\..\Library\Application Support\Steam\steamapps\common\Rain World\RainWorld_Data\Managed\UnityEngine.dll</HintPath>
+        </Reference>
         <Reference Include="UnityEngine.CoreModule">
           <HintPath>..\..\..\..\Library\Application Support\Steam\steamapps\common\Rain World\RainWorld_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
         </Reference>
@@ -54,6 +57,11 @@
         <Compile Include="Properties\AssemblyInfo.cs"/>
         <Compile Include="src\ethan\theloner\*" />
         <Compile Include="src\ethan\theloner\misc\LORoomSpecificScripts.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="build\TL.dll" />
+      <Content Include="mod\newest\plugins\SlugbaseExtendedExtended.dll" />
+      <Content Include="mod\newest\plugins\TL.dll" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
