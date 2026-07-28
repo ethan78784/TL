@@ -3,6 +3,7 @@
 using System.Collections.Generic;
 using RWCustom;
 using UnityEngine;
+using Watcher;
 
 namespace TL.ethan.theloner.misc 
 {
@@ -31,7 +32,7 @@ namespace TL.ethan.theloner.misc
                 // Add any scripts with keys that match the roomID
                 foreach (var entry in _STORY_EVENTS) {
                     if (roomID.Equals(entry.Key)) {
-                        Debug.Log("Adding RoomSpecificScript for room \"" + entry.Key + "\"");
+                        Debug.LogWarning("Adding RoomSpecificScript for room \"" + entry.Key + "\"");
                         room.AddObject(entry.Value);
                     }
                 }
@@ -39,27 +40,74 @@ namespace TL.ethan.theloner.misc
             }
             
         }
-        
+
 
         private class LonerTestScript : UpdatableAndDeletable {
-            
+
             #region TechnicalYap
+
             // All instances of UpdatableAndDeletable require a defined room,
             // But I realizd that, since all RoomSpecificScripts are added as an object using `room.AddObject()`,
             // And the object's room is set there,
             // I technically don't need to manually set the room here, or even pass it to its constructor(?)
             // This allows me to store all of these events in a biggol list above, for better organization
+
             #endregion
 
-            private Player _player;
+            private Player player;
             private int _messageCount = 0;
+            private float lastPosition;
+            
+            private bool cutsceneTriggered;
+            private bool getRidOfThoseRatsPleaseGod;
+            private bool backAtStatue;
+
+            private int cutsceneTimer = 0;
+            private int lookAtTimer = 0;
+
+            private int jumpTimer = 0;
+            private int jumpCount = 0;
+
+            private readonly float[] statueRange = { 1400f, 2100f };
+            private readonly float statueLocation = 1755;
             
             public override void Update(bool eu) {
                 base.Update(eu);
                 
-                if (_player == null && room.game.Players.Count > 0 && room.game.Players[0].realizedCreature != null)
-                    _player = room.game.Players[0].realizedCreature as Player;
+                if (player == null && room.game.Players.Count > 0 && room.game.Players[0].realizedCreature != null)
+                    player = room.game.Players[0].realizedCreature as Player;
+
+                if (player == null) {
+                    return;
+                }
                 
+                // Only run the script if the player is present in this room (which isn't the case by default??)
+                if (player.room != room) {
+                    return;
+                }
+
+                // I was sick and tired of these rats pushing me out of cutscene position so I stun them for like 5 mins
+                // LET ME AURAFARM DAMMIT
+                if (!getRidOfThoseRatsPleaseGod) {
+                    foreach (var creature in room.abstractRoom.creatures) {
+                        if (creature.realizedCreature is Rat) {
+                            creature.realizedCreature.stun = 3000;
+                        }
+
+                        if (creature.realizedCreature is BigMoth moth) {
+                            // Get these moths out of the way too but I like 'em so they can just get SM64-Upwarp'd
+                            if (moth.Small) {
+                                moth.mainBodyChunk.HardSetPosition(new Vector2(moth.mainBodyChunk.pos.x, 2000));
+                            }
+                        }
+                    }
+
+                    Debug.LogWarning("RATS AND MOTHS BEGONE");
+                    getRidOfThoseRatsPleaseGod = true;
+                }
+                
+                
+                /*
                 if (_player == null || _player.room != room || room.game.cameras[0].hud == null || room.game.cameras[0].hud.textPrompt.messages.Count >= 1)
                     return;
 
@@ -67,15 +115,166 @@ namespace TL.ethan.theloner.misc
                     room.game.cameras[0].hud.textPrompt.AddMessage(this.room.game.manager.rainWorld.inGameTranslator.Translate("Test!"), 120, 200, true, true);
                     ++_messageCount;
                 }
+                */
 
-                Debug.Log(_player.mainBodyChunk.pos.x);
+               // Statue: 
+               //   < x = 2180
+               //   > x = 1250
+               // Location: 1760
+               
+               // Check if they haven't been moving by comparing their position last update with current position
+               bool isMoving = !Mathf.Approximately(lastPosition, player.mainBodyChunk.pos.x);
+               lastPosition = player.mainBodyChunk.pos.x;
+               
+               /*
+               Debug.LogWarning(_player.input.ToString());
+               Debug.LogWarning(isMoving);
+               Debug.LogWarning(_player.mainBodyChunk.pos.x);
+               */
 
-                (_player.graphicsModule as PlayerGraphics)?.LookAtPoint(new Vector2(0, 100), 10f);
+               if (!cutsceneTriggered && player.mainBodyChunk.pos.x > statueRange[0] && player.mainBodyChunk.pos.x < statueRange[1]) {
+                   Debug.LogWarning("Ooh pretty");
+                   //(player.graphicsModule as PlayerGraphics)?.LookAtPoint(new Vector2(1760, 500), 10f);
+               }
+
+               if (!cutsceneTriggered && player.mainBodyChunk.pos.x < statueRange[0]) {
+                   Debug.LogWarning("Stop here!");
+                   // At the end of the statue range, stop
+                   (player.graphicsModule as PlayerGraphics)?.LookAtPoint(new Vector2(player.mainBodyChunk.pos.x - 100, player.mainBodyChunk.pos.y), 10f);
+                   cutsceneTriggered = true;
+               }
+
+               if (cutsceneTriggered) {
+                   cutsceneTimer++;
+                   
+                   RoomCamera camera = room.game.cameras[0];
+                   
+                   if (player.controller == null) {
+                       RainWorld.lockGameTimer = true;
+
+                       if (!camera.InCutscene) {
+                           camera.EnterCutsceneMode(player.abstractCreature, RoomCamera.CameraCutsceneType.Standard);
+                       }
+                        // Override the player's controls with scripted ones
+                       player.controller = new LTSStatueLookController(this, player);
+                       Debug.LogWarning("Entered cutscene!");
+                       
+                   }
+
+                   if (jumpTimer > 0) {
+                       jumpTimer--;
+                   }
+
+                   // After stopping for two seconds, look at the statue for three seconds
+                   if (cutsceneTimer > 120 && cutsceneTimer < 300) {
+                       (player.graphicsModule as PlayerGraphics)?.LookAtPoint(new Vector2(statueLocation, 500), 10f);
+                   }
+
+                   // At five seconds, stop looking at it and start walking over in the controller
+                   if (cutsceneTimer > 300) {
+                       (player.graphicsModule as PlayerGraphics)?.LookAtNothing();
+                   }
+
+                   
+                   if (player.mainBodyChunk.pos.x >= statueLocation) {
+                       backAtStatue = true;
+                   }
+                   
+                   // Once we reach the statue,
+                   if (backAtStatue) {
+                       // New timer, since I have no idea when in the old one we'll have reached the statue
+                       lookAtTimer++;
+                       
+                       // Look at the statue introspectively for ~4 seconds, jump twice in awe, and keep looking at it until second 6
+                       if (lookAtTimer < 360) {
+                           (player.graphicsModule as PlayerGraphics)?.LookAtPoint(new Vector2(statueLocation, 500), 10f);
+                       }
+                       else {
+
+                           // Look around for a little less than a second each direction,
+                           
+                           // First left
+                           if (lookAtTimer < 404) {
+                               (player.graphicsModule as PlayerGraphics)?.LookAtNothing();
+                               (player.graphicsModule as PlayerGraphics)?.LookAtPoint(new Vector2(statueLocation - 100, player.mainBodyChunk.pos.y), 100f);
+                           }
+                           // Then right
+                           else if (lookAtTimer < 434) {
+                               (player.graphicsModule as PlayerGraphics)?.LookAtNothing();
+                               (player.graphicsModule as PlayerGraphics)?.LookAtPoint(new Vector2(statueLocation + 100, player.mainBodyChunk.pos.y), 100f);
+                           }
+                           // Reset the player's look point and start heading back to the left in the controller
+                           else if (lookAtTimer < 495) {
+                               (player.graphicsModule as PlayerGraphics)?.LookAtNothing();
+                           }
+                           else {
+                               // A little less than 11 seconds in to the statue phase, end the cutscene
+                               camera.ExitCutsceneMode();
+                               player.controller = null;
+                               RainWorld.lockGameTimer = false;
+                               Debug.LogWarning("Exited cutscene!");
+                               this.Destroy();
+                           }
+                           
+                       }
+                   }
+                   
+                   
+               }
 
 
             }
-            
-            
+
+            public Player.InputPackage GetInput() {
+
+                int x = 0;
+                bool jump = false;
+                
+                // If we're 5 seconds in and not yet at the statue, keep walking towards it
+                if (cutsceneTimer > 300 && player.mainBodyChunk.pos.x < statueLocation && lookAtTimer == 0) {
+                    x = 1;
+                }
+
+                // If we've been looking at the statue for 4 seconds, jump a few times to express how cool it is
+                if (lookAtTimer > 240) {
+
+                    if (jumpCount < 2) {
+                        if (player.canJump > 0 && jumpTimer == 0) {
+                            jump = true;
+                            jumpCount++;
+                            Debug.LogWarning("Boing!");
+                            jumpTimer = 30; // Hold down jump for a little less than a full second to get full height
+                        }
+                    }
+                    
+                    if (jumpTimer > 1) {
+                        jump = true;
+                    }
+
+                    // After looking around to make sure noone saw that, head back to the left
+                    if (lookAtTimer > 434) {
+                        x = -1;
+                    }
+                }
+                
+                
+                
+                return new Player.InputPackage(false, Options.ControlSetup.Preset.None, x, 0, jump, false, false, false, false);
+            }
+
+            class LTSStatueLookController : Player.PlayerController {
+                private LonerTestScript owner;
+                private Player player;
+
+                public LTSStatueLookController(LonerTestScript owner, Player player) {
+                    this.owner = owner;
+                    this.player = player;
+                }
+
+                public override Player.InputPackage GetInput() {
+                    return this.owner.GetInput();
+                }
+            }
         }
         
         
