@@ -1,0 +1,14 @@
+Template: NONE
+DangerType: AerieBlizzard
+RainIntensity: 0.7293366
+RumbleIntensity: 1
+WaveSpeed: 0.4696696
+WaveLength: 0.9011434
+WaveAmplitude: 0.03646681
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0
+Palette: 4504
+EffectColorB: 3
+Effects: Darkness-0.7934783-20-20, Coldness-1-25.05939-160.8889, FWFog-0.3440893-289.05-155.9556, 
+PlacedObjects: Corruption><1184.084><653.8183><-162~137, Corruption><108.1758><672.3143><-29~147, 

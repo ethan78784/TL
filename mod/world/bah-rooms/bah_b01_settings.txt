@@ -1,0 +1,5 @@
+Template: NONE
+Palette: 4510
+EffectColorA: 3
+EffectColorB: 6
+AmbientSounds: OMNI><MSC-StructureStrain.ogg><720.3564><206.6393><0.2065217><1, 

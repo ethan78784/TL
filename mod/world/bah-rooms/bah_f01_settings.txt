@@ -1,0 +1,9 @@
+Template: NONE
+DangerType: FloodAndRain
+Palette: 4511
+EffectColorA: 3
+EffectColorB: 6
+Effects: WaterGlowworm-0.4673913-45-132, Flies-0.2391304-35-114, 
+PlacedObjects: GlowWeed><1542.45><579.9931><0~0~2~3, GlowWeed><1914.927><442.5636><0~0~2~3, GlowWeed><1428.917><492.8894><0~0~2~3, GlowWeed><943.7216><441.198><0~0~2~3, GlowWeed><681.2503><625.3><0~0~2~3, GlowWeed><382.3798><533.0978><0~0~2~3, GlowWeed><303.8817><750.6505><0~0~2~3, 
+AmbientSounds: OMNI><MSC-StructureStrain.ogg><733.05><208.7485><0.1086956><1, OMNI><MSC-HeavyCreaking.ogg><787.2275><296.3013><0.1086956><1, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>rw_74 - aquaphobia<eA>vol<eB>0.4521743<eA>prio<eB>1<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0.2065217<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>228.2609<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>770.9494<tB>449.2655<tA>fireChance<tB>1<tA>entrance<tB>0<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>180.9494<tB>1366.266<tA>handlePos<tB>-152.3553<tB>-114.3553, 

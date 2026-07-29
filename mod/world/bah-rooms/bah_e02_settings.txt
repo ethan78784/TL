@@ -1,0 +1,5 @@
+Template: NONE
+Palette: 4510
+EffectColorA: 4
+EffectColorB: 6
+Effects: ZeroG-1-20-20, SSMusic-0.185598-30-30, 

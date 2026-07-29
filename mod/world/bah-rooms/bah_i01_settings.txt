@@ -1,0 +1,6 @@
+Template: NONE
+Palette: 4510
+EffectColorA: 3
+EffectColorB: 2
+Effects: WaterGlowworm-0.423913-20-20, 
+PlacedObjects: LightSource><144.4464><1905><1~Environment~585~196~50~86.60254~0~0~None~0~0, LightSource><545.187><949><0.4565217~Environment~-709~267~50~86.60254~0~0~None~0~0, 

@@ -1,0 +1,12 @@
+Template: NONE
+DangerType: None
+WaveSpeed: 0.4621952
+WaveLength: 0.9810976
+WaveAmplitude: 2.266579E-06
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0
+Palette: 4505
+Effects: ZeroG-1-20-20, Darkness-0.8043478-0-0, SSMusic-0.1086956-35-78, ProjectedScanLines-1-241-86, ZeroGSpecks-0.3586957-520-495, SunBlock-1--26-138, 
+PlacedObjects: SuperStructureFuses><33.3107><56.06458><92~547, LightSource><202.2412><595.0502><1~Environment~-639~171~50~86.60254~0~0~None~0~0, LightFixture><-27.06085><485.1851><RedLight~17.32051~-10~11, LightFixture><239.3253><94.40268><RedLight~-325.6795~26~10, SSLightRod><271.3698><232.0982><-450.6795~11~0.2173913~0~352.6087~1, SSLightRod><212.6444><310.1384><-332.6795~74~0.3152174~0~104.7826~0.2391304, LightSource><806.1777><319.0635><1~Environment~-164~168~50~86.60254~0~0~None~0~0, LightSource><1528.016><351.1994><1~Environment~-162~174~50~86.60254~0~0~None~0~0, LightSource><2488><361.5283><0.5217391~Environment~-575~332~50~86.60254~0~0~None~0~0, LightSource><3620><280.9314><0.5543478~Environment~-570~387~50~86.60254~0~0~None~0~0, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><759.3011><488.5208><0.5><1, OMNI><SO_SFX-DataTrans.ogg><702.3><385.7528><0.2173913><1, OMNI><SO_SFX-DataTones.ogg><88.65894><449.6214><0.1086956><1, 

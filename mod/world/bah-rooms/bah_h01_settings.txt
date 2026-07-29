@@ -1,0 +1,10 @@
+Template: NONE
+DangerType: None
+BkgDroneVolume: 0
+Palette: 4506
+EffectColorA: 4
+EffectColorB: 6
+Effects: ZeroG-1-20-20, Darkness-0.4175951-219.2479-93.28889, SunBlock-1-24.44272-115.1555, Toxic Brine Water-1-48-128, SuperStructureProjector-1-40-40, 
+PlacedObjects: WallLight><414.3859><585.078><150~50~414.3859~585.078~9.248962~198.1333~1457.462~-15.64453~1455.328~150.4889~0.2861295~0.3453356~1~False~SkyColor~False~False~Always~Soft, ProjectedStars><490.6851><2461.111><-92.48956~247.9111, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><756.5593><492.4583><0.5><1, OMNI><MSC-StructureStrain.ogg><703.4542><203.234><0.2525363><1, OMNI><OM.wav><695.3746><545.4411><0.3221349><1, OMNI><RWTW_AmbSubBubble.ogg><690.9822><279.8><0.1984041><1, 
+FadePalette: 0, 0, 0, 0, 0, 0, 0, 0, 0

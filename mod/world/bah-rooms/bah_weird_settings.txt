@@ -1,0 +1,5 @@
+Template: NONE
+Palette: 31
+Effects: RoomWrap-1-20-20, VoidMelt-0.2717391-39-122, VoidSpawn-0.09782609-30-30, 
+AmbientSounds: OMNI><RWTW_ElderRippleAmbiance.ogg><731.7541><486.05><0.1847826><1, 
+FadePalette: 4510, 0.5652174

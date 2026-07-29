@@ -1,0 +1,14 @@
+Template: NONE
+DangerType: AerieBlizzard
+CeilingDrips: 0
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04999999
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 4504
+EffectColorA: 2
+EffectColorB: 8
+Effects: Darkness-0.9130435-20-20, Coldness-1-39-115, 
+PlacedObjects: Corruption><867.0001><560.6127><-178~101, Corruption><69><355.7><-74~95, Corruption><356><389.1495><3~68, SlimeMold><48.19434><142.797><-206~175~1~3, SlimeMold><48.1026><172.6716><-229~176~1~3, SlimeMold><48.349><102.3812><-207~-110~1~3, SlimeMold><48.90002><124.6322><-279~122~1~3, SlimeMold><63.40466><86.17585><0~0~1~3, CosmeticSlimeMold><47.55307><120.4647><-11~105, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><733.288><567.0536><0.5><1, OMNI><AM_IND-50hz.ogg><751.8766><336.4074><0.186889><1, OMNI><AM_ENV-WinterHum.ogg><731.7724><398.3013><0.5><1, 

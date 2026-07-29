@@ -1,0 +1,11 @@
+Template: NONE
+DangerType: AerieBlizzard
+CeilingDrips: 0
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04999999
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 4504
+Effects: Darkness-0.8695652-20-20, FWFog-0-220-113, 
+PlacedObjects: PassiveCorruption><1028.323><192.6566><-80~231~175~123~3.739133~22.82609~0.843478~0.3~0.8543476~0.006521474~0.05217378~0.1347829~0.656522~Default~Cross~Passive~2~0.2934783~1.434783, ExitSymbolHidden><981.057><103.8083><, ExitSymbolHidden><987.5657><85.07767><, Corruption><899.3088><297.9411><-7~106, Corruption><1062.814><604.9272><0~100, LightSource><1024.329><430.6837><0.1521739~Environment~-536~228~50~86.60254~1~0~None~0~0, 

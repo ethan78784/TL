@@ -1,0 +1,15 @@
+Template: NONE
+DangerType: AerieBlizzard
+CeilingDrips: 0
+RainIntensity: 0.8478261
+RumbleIntensity: 1
+WaveSpeed: 0.4945985
+WaveLength: 0.8498482
+WaveAmplitude: 0.04239129
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 4504
+Effects: Darkness-0.8586956-20-20, SkyAndLightBloom-0.02173913-18-123, FWFog-0.4782609-14-102, 
+PlacedObjects: Corruption><2974><357.709><-51~130, EEGhostSpot><128.883><498.9176><, 
+BackgroundOffset: 978.2606,1086.956
+BackgroundType: atc_default_msc

@@ -1,0 +1,10 @@
+Template: NONE
+Clouds: 0.04347826
+Palette: 2
+EffectColorA: 18
+EffectColorB: 2
+Effects: Contrast-0.06521739-31-107, 
+AmbientSounds: OMNI><AM_ENV-WallHum.ogg><707.9365><430.8222><0.5><1, OMNI><AM_IND-SuperStructure.ogg><734.563><491.5709><0.2717391><1, OMNI><AM_ENV-LightWind.ogg><745.4088><516.1284><0.5><1, 
+Triggers: RegionBump<tA>event<tB>MusicEvent<eA>songName<eB>bm_uw_wall<eA>vol<eB>0.4546655<eA>prio<eB>1<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>143.8385<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>512.227<tB>432.4535<tA>fireChance<tB>1<tA>entrance<tB>1<tA>karma<tB>0<tA>slugcats<tB>, 
+BackgroundOffset: 326.0869,217.3913
+BackgroundType: atc_default_msc

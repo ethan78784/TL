@@ -1,0 +1,9 @@
+Template: NONE
+Clouds: 0.04347826
+Palette: 4503
+EffectColorA: 18
+EffectColorB: 2
+Effects: SkyBloom-0.1630435-20-20, Fog-0.4782609-30-30, 
+Triggers: RegionBump<tA>event<tB>MusicEvent<eA>songName<eB>bm_uw_wall<eA>vol<eB>0.4546655<eA>prio<eB>0.6933308<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>143.8385<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>512.227<tB>432.4535<tA>fireChance<tB>1<tA>entrance<tB>1<tA>karma<tB>0<tA>slugcats<tB>, 
+BackgroundOffset: 326.0869,760.8694
+BackgroundType: atc_default_msc

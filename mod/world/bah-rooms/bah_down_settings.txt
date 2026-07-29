@@ -1,0 +1,11 @@
+Template: NONE
+DangerType: None
+CeilingDrips: 0
+Grime: 0
+Palette: 31
+EffectColorA: 14
+EffectColorB: 14
+Effects: ZeroG-1-20-20, VoidMelt-0.7391304-30-30, VoidSpawn-0.8369565-27-124, RoomWrap-1-33-148, ReplaceCorruptionColor-1-737-409-Color-1-0.5652174-0, 
+PlacedObjects: Corruption><175.6923><3323><-16~137, Corruption><623.4654><3786.553><0~100, Corruption><775.3149><652><0~100, Corruption><182.0897><172.3804><0~100, KarmaFlowerPatch><486><278.9891><-204~310~0.5~0~0~0.3478261~0.4456522, 
+AmbientSounds: OMNI><RWTW_ElderRippleAmbiance.ogg><734.0753><487.1853><0.2282609><1, OMNI><RWTW_RotAmb_UnfortEvo.ogg><774.6936><185.5503><0.4456522><1, OMNI><RWTW_DeepRumble_02.ogg><723.4067><562.9269><0.3478261><1, 
+BackgroundType: rws_withworm

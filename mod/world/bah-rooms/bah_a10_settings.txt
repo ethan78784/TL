@@ -1,0 +1,6 @@
+Template: NONE
+BkgDroneVolume: 0
+Palette: 4510
+EffectColorB: 6
+PlacedObjects: DangleFruit><694.8433><572.6257><0~0~2~3, DangleFruit><762.4265><556.436><0~0~2~3, DangleFruit><855.9901><562.3002><0~0~2~3, DangleFruit><728.2399><568.9497><0~0~2~3, DangleFruit><807.9049><559.926><0~0~2~3, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><724.6237><486.5987><0.2602698><1, OMNI><AM_SUB-MysticCave2.ogg><737.6038><221.9025><0.2680027><1, 

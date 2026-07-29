@@ -1,0 +1,15 @@
+Template: NONE
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+Clouds: 0
+Grime: 0.326087
+BkgDroneVolume: 0
+Palette: 4510
+EffectColorA: 13
+EffectColorB: 6
+Effects: SunBlock-1-20-20, BrokenZeroG-1-19-87, ZeroGSpecks-0.2173913-28-84, SilenceWater-1-30-30, 
+PlacedObjects: LightSource><272><122.8257><1~EffectColor1~-963~335~-246~99.60252~0~0~None~0~0, LightSource><649><545.4233><1~EffectColor2~-938~-49~421~-71.39746~0~0~None~0~0, LightSource><497><77.51428><1~EffectColor2~-207~163~-435~427.6025~0~0~None~0~0, Vine><797><439.9063><-312~198, CellDistortion><502.7049><83.80228><3~169~50~86.60254~0.2341003~0~0~0.09973476, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><731.9412><493.6911><0.5><1, OMNI><so_sfx-morse.ogg><600.3701><337.8479><0.1630435><1, OMNI><so_sfx-heartbeat1.ogg><467.2708><502.4489><0.25><1, OMNI><AM_RAIN-RollingThunder.ogg><746.1548><312.8734><0.3586957><1, OMNI><AM_SUB-MysticCave1.ogg><779.6482><230.3278><0.2826087><1, OMNI><AM_WAT-Sea01.ogg><727.0662><190.8289><0.3152174><1, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>rw_136 - lullaby<eA>vol<eB>0.3<eA>prio<eB>1<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0.05434782<eA>rooms<eB>0<eA>rest<eB>0<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>131.3352<tB>486.3633<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>483.6631<tB>103.6622<tA>handlePos<tB>-268.3553<tB>-8.355347, 

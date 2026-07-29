@@ -1,0 +1,13 @@
+Template: NONE
+DangerType: FloodAndRain
+WaveSpeed: 0.5363194
+WaveLength: 0.9818403
+WaveAmplitude: 0.01009261
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0
+BkgDroneVolume: 0
+Palette: 4511
+EffectColorB: 6
+Effects: ZeroG-1-20-20, Darkness-0.3152174-30-30, Lightning-0.5869565-30-86, BkgOnlyLightning-0.2608696-43-136, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><738.6874><488.5698><0.5><1, OMNI><AM_RAIN-RollingThunder.ogg><741.7><307.7515><0.5><1, OMNI><AM_RAIN-Rumbles.ogg><709.8771><296.6578><0.2934783><1, 

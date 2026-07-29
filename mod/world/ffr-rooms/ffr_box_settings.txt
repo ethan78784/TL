@@ -1,0 +1,9 @@
+Template: NONE
+DangerType: AerieBlizzard
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04999207
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 4504
+Effects: Darkness-0.8043478-20-20, Coldness-1-30-30, 

@@ -1,0 +1,8 @@
+Template: NONE
+Palette: 2
+EffectColorA: 19
+EffectColorB: 2
+Effects: Contrast-0.06521739-20-20, SkyBloom-0.3586957-30-30, 
+AmbientSounds: OMNI><AM_ENV-WallHum.ogg><2.79755><450.0557><0.5><1, OMNI><AM_ENV-LightWind.ogg><16.9256><539.3143><0.5><1, 
+BackgroundOffset: 0,181.7256
+BackgroundType: atc_default_msc

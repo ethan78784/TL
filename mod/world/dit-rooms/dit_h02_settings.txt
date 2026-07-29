@@ -1,0 +1,9 @@
+Template: NONE
+Palette: 28
+EffectColorA: 18
+EffectColorB: 2
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><773.7743><561.8015><0.5><1, OMNI><AM_ENV-WallHum.ogg><749.6765><428.686><0.2717391><1, OMNI><AM_ENV-Pasture.ogg><314.5422><428.6955><0.25><1, OMNI><RWTW_AmbChirp.ogg><478.7671><547.1993><0.3369565><1, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>na_28 - stargazer<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0.1086956<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>1<eA>stopAtGate<eB>0<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>637.4283<tB>393.5905<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>3624.428<tB>511.4589<tA>handlePos<tB>-2344.355<tB>69.64465, 
+FadePalette: 2, 0.4891304, 0.4891304, 0.4891304, 0.4891304, 0.4891304, 0.4891304, 0.4891304, 0.4891304
+BackgroundOffset: 326.0869,0
+BackgroundType: rf_default

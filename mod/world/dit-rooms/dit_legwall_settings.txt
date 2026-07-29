@@ -1,0 +1,14 @@
+Template: NONE
+CeilingDrips: 0.1847826
+WaveSpeed: 0.5130966
+WaveLength: 0.9934517
+WaveAmplitude: 3.415619E-05
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.8478261
+Palette: 4507
+EffectColorA: 19
+EffectColorB: 2
+Effects: ElectricDeath-0.4021739-20-20, Lightning-0.4456522-31-92, GreenSparks-0.4673913-48-15, ExtraLoudThunder-0.1304348-35-136, 
+PlacedObjects: DangleFruit><518><504.1843><0~0~2~3, DangleFruit><377><478.0672><0~0~2~3, DangleFruit><291><521.3472><-5~161~2~3, 
+AmbientSounds: OMNI><AM_ENV-WallHum.ogg><429.3987><476.9225><0.5><1, OMNI><AM_IND-SuperStructure.ogg><760.3295><492.0665><0.25><1, OMNI><RWTW_AmbDrips_01.ogg><657.6877><569.6809><0.2173913><1, OMNI><AM_RAIN-RollingThunder.ogg><749.8332><311.6819><0.3695652><1, 

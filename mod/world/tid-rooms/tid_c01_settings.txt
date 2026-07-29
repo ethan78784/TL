@@ -1,0 +1,6 @@
+Template: NONE
+Palette: 4505
+EffectColorA: 19
+EffectColorB: 2
+PlacedObjects: CustomDecal><1336.066><320.0781><-3~343~369~348~367~-3~-478~-125~0~1~0~unq - plate5~1~0~1~0~1~0~1~0, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><779.7208><487.1978><0.5><1, 

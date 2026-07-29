@@ -1,0 +1,4 @@
+Template: NONE
+DangerType: None
+Palette: 4507
+EffectColorB: 2

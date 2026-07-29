@@ -1,0 +1,8 @@
+Template: NONE
+BkgDroneVolume: 0
+Palette: 4506
+EffectColorA: 4
+EffectColorB: 6
+Effects: SSMusic-0.03363916-20-20, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><759.6182><487.9925><0.3066691><1, OMNI><AM_RAIN-Rumbles.ogg><721.7485><292.189><0.2757356><1, OMNI><RWTW_AmbFlowGentle.ogg><732.238><398.8232><0.1906705><1, SPOT><RWTW_AmbFlowLight.ogg><745.8729><389.52><0.2989363><1><466.0354><2776.365><-262.3105><-454.1998><0><0.1, 
+FadePalette: 4510, 1, 0.7114583, 0.4021288, 0.14161

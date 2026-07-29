@@ -1,0 +1,7 @@
+Template: NONE
+Clouds: 0.8043478
+Palette: 4507
+EffectColorA: 19
+EffectColorB: 2
+Effects: Contrast-0.05434782-20-20, 
+AmbientSounds: OMNI><AM_ENV-WallHum.ogg><725.089><427.5709><0.5><1, OMNI><AM_RAIN-QuietThunder.ogg><728.08><325.1833><0.326087><1, OMNI><AM_IND-SuperStructure.ogg><687.317><489.9193><0.3913043><1, OMNI><RWTW_AmbDrips_01.ogg><774.5274><522.4481><0.1847826><1, 

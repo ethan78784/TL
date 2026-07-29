@@ -1,0 +1,5 @@
+Template: NONE
+Palette: 4510
+PlacedObjects: LightSource><788.072><2435><0.2173913~Environment~-963~365~50~86.60254~0~0~None~0~0, LightSource><200.8246><1645.916><0.3478261~Environment~-539~333~50~86.60254~0~0~None~0~0, LightSource><581.9481><271><0.5978261~Environment~-735~535~50~86.60254~0~0~None~0~0, 
+AmbientSounds: OMNI><MSC-StructureStrain.ogg><740.813><208.9398><0.1521739><1, OMNI><MSC-ElectricPulse.ogg><748.3649><330.4137><0.25><1, 
+FadePalette: 4511, 0, 0.3695652, 0.6086956, 0.9673913

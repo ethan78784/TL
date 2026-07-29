@@ -1,0 +1,6 @@
+Template: NONE
+DangerType: Flood
+BkgDroneVolume: 0
+Palette: 4510
+EffectColorB: 6
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><744.7138><486.5151><0.3066691><1, OMNI><AM_SUB-MysticCave2.ogg><707.902><216.6569><0.2757363><1, 

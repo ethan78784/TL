@@ -1,0 +1,14 @@
+Template: NONE
+DangerType: AerieBlizzard
+CeilingDrips: 0
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04999999
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 4504
+EffectColorA: 7
+EffectColorB: 11
+Effects: Darkness-0.8369565-20-20, FWFog-0.5652174-19-75, Coldness-1-30-30, 
+PlacedObjects: Corruption><1748.662><95.88251><-95~115, Corruption><1779.514><590.1995><-108~-107, Corruption><1185><555.7134><-265~162, Corruption><1523.817><561.6267><-220~130, PassiveCorruption><1553.415><109.3865><-177~43~-558~220~7~15~0.8~0.3~0.55~0.05~0.15~0.2~0.2~Default~Dot~Passive~2~0~1, SteamPipe><1803.305><342.3078><-16~-6, CorruptionTube><421.8181><120.9169><-130~511, CorruptionTube><170.0364><332.0533><370~206, SeedCob><217.3494><228.8684><0~0~4~10, DeadSeedCob><325.6359><205.5857><, RottenSeedCob><223.3654><323.1633><0~0~2~3, CustomChatlogToken><1451.903><185.1291><26~-82~0~0~Forced, DeadTokenStalk><1204.197><214.9656><28~-105, DeadTokenStalk><1335.55><429.4918><-21~140, DeadTokenStalk><1034.45><202.2607><-12~-96, 
+AmbientSounds: OMNI><AM_ENV-WinterHum.ogg><728.0265><402.8018><0.4021739><1, OMNI><AM_IND-50hz.ogg><700.299><340.5561><0.2282609><1, OMNI><AM_ENV-CityTone.ogg><743.9482><563.4737><0.3913043><1, OMNI><AM_IND-SuperStructure.ogg><734.855><492.0798><0.3152174><1, OMNI><RWTW_RotAmb_Swarm.ogg><698.8885><204.3942><0.3043478><1, SPOT><SO_SFX-Heartbeat1.ogg><718.8061><252.2991><0.5><1><1769.806><281.2991><-666.3553><-46.35535><0><0.1, 

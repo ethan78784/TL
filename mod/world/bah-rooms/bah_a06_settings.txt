@@ -1,0 +1,4 @@
+Template: NONE
+BkgDroneVolume: 0.1152175
+Palette: 4510
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><720.5249><488.6985><0.25><1, OMNI><AM_RAIN-Rumbles.ogg><744.5485><297.806><0.1956522><1, OMNI><MSC-StructureStrain.ogg><706.0534><205.7869><0.1304348><1, 

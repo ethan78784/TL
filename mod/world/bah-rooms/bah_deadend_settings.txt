@@ -1,0 +1,10 @@
+Template: NONE
+BkgDroneVolume: 0
+Palette: 4511
+EffectColorA: 6
+EffectColorB: 6
+Effects: Darkness-0.2065217-20-20, ZeroG-0.5543478-30-30, ZeroGSpecks-0.4891304-40-40, VoidSpawn-0.3369565-60-60, SilenceWater-0.5-89-136, VoidMelt-0.5543478-50-50, FWFog-1-70-70, 
+PlacedObjects: EffectOverrideCircle><322.3754><374.0942><-395~-210~50~50~-1~0~0~0.5~0.5~0.3369565~1~1~0~29~1, 
+AmbientSounds: OMNI><RWTW_AR_RearDen.ogg><766.2015><320.694><0.2065217><1, OMNI><RWTW_DeepRumble_01.ogg><743.1973><161.4669><0.2717391><1, 
+FadePalette: 31, 0.3478261
+BackgroundType: rws_noworm

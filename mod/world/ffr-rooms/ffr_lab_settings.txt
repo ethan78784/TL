@@ -1,0 +1,14 @@
+Template: NONE
+DangerType: AerieBlizzard
+CeilingDrips: 0
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04999999
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 4504
+EffectColorA: 18
+EffectColorB: 4
+Effects: Darkness-0.9239131-20-20, 
+PlacedObjects: Corruption><181.3055><610.4535><-315~41, Corruption><845.0414><328.5543><0~100, Corruption><1869.139><636.6437><-187~141, CustomDecal><493.6471><500.0255><-7~174~84~174~75~-2~-257~95~0~1~1~ploobis~0.001675647~0.326087~0.001675647~0.326087~0.001675647~0.326087~0.001675647~0.326087, Corruption><1252.842><606.8721><-207~156, LightSource><950.4148><301.681><1~EffectColor2~2~14~50~86.60254~0~0~None~0~0, LightSource><292.1342><303.1483><1~EffectColor1~-4~15~50~86.60254~0~0~Flash~0.7173913~0, LightSource><644.4477><304.4525><1~EffectColor2~-11~10~50~86.60254~0~0~None~0~0, WallLight><273><281.0705><164.9406~-124.9333~273~281.0705~-8~-168.4889~37~0~43~-162~0~1~1~False~SkyColor~False~False~Always~Soft, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><714.5546><565.5576><0.5><1, OMNI><AM_IND-50hz.ogg><736.3746><339.0936><0.1304348><1, OMNI><AM_ENV-WinterHum.ogg><753.6886><402.1834><0.2934783><1, SPOT><AM_IND-50hz.ogg><260.7472><366.356><0.3840017><1><292.2795><184.6005><-35.35534><-35.35534><0><0.0999998, 

@@ -1,0 +1,7 @@
+Template: NONE
+Grime: 0
+Palette: 28
+EffectColorA: 19
+EffectColorB: 2
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><764.55><488.5043><0.3913043><1, SPOT><AM_IND-50hz.ogg><715.4045><339.123><0.2608696><1><474.4045><247.123><-147.3553><-101.3553><0><0.1, 
+FadePalette: 4505, 0.4565217

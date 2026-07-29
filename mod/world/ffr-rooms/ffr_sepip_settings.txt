@@ -1,0 +1,11 @@
+Template: NONE
+DangerType: AerieBlizzard
+CeilingDrips: 0
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04999999
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 4504
+Effects: Darkness-0.7269249-20-20, Coldness-1-30-30, 
+PlacedObjects: CosmeticSlimeMold><829.8478><211.8891><-12.09479~76.53333, CosmeticSlimeMold2><942.9441><241.5606><4.268799~64.44446, SlimeMold><789.0469><189.2787><232~365~2~3, SlimeMold><806.8333><256.5569><-163~106~2~3, SlimeMold><877.9791><235.1886><91~140~2~3, SlimeMold><978.2948><231.8062><256~184~2~3, SlimeMold><914.975><231.5194><320~74~2~3, SlimeMold><1001.773><237.6959><37~172~2~3, SlimeMold><782.6437><168.6955><-349.326~-26.3111~2~3, CosmeticSlimeMold><941.1826><218.3314><-17~96, CosmeticSlimeMold><886><235.1993><-2~89, 

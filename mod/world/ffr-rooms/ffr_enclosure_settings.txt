@@ -1,0 +1,19 @@
+Template: NONE
+DangerType: AerieBlizzard
+CeilingDrips: 0
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04999999
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0
+Grime: 0.07608695
+RandomItemDensity: 0
+RandomItemSpearChance: 0
+Palette: 4504
+EffectColorA: 4
+EffectColorB: 18
+Effects: Darkness-0.9130435-20-20, Coldness-1-121-88, Flies-0.04347826-35-91, Fog-0.05434782-54-130, 
+PlacedObjects: LightSource><532.524><616.3511><0.07201087~EffectColor1~-224~-46~-516.7521~209.5359~0~1~None~0~0, Corruption><844><272.564><0~100, Corruption><665><216.0598><-22~111, Corruption><92><55.34865><-82~120, Corruption><120><1032.159><-63~103, WallLight><311.2047><395.7753><-269.7604~312.4~311.2047~395.7753~414.7803~104.2668~3.241699~-83.20001~340.473~-212.1778~0.02319999~0.6082651~1~False~SkyColor~False~False~Always~Soft, Corruption><894.5869><996.1342><-69~166, Filter><889.4108><1003.321><51~-290~0~0~White|Yellow|Red|Rivulet|Artificer|Saint|Spear|Gourmand|Watcher|lonelyscuggy, ExitSymbolHidden><925.4238><872.4012><, ExitSymbolHidden><922.2841><990.4472><, ExitSymbolHidden><912.4133><879.4304><, ExitSymbolHidden><909.0575><994.3043><, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><730.2567><564.0501><0.5><1, OMNI><AM_ENV-WinterHum.ogg><740.6503><400.1734><0.2934783><1, OMNI><AM_IND-50hz.ogg><420.8437><429.8748><0.1304348><1, OMNI><AM_IND-Warehouse01.ogg><476.9019><331.3699><0.5217391><1, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>rw_150 - computer tape<eA>vol<eB>0.2021737<eA>prio<eB>1<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0.2717391<eA>rooms<eB>-1<eA>rest<eB>0<eA>fadeIn<eB>97.82609<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>1<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>189.8556<tB>383.8884<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>460.8556<tB>382.8884<tA>handlePos<tB>-839.3553<tB>53.64465, 

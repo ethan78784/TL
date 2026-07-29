@@ -1,0 +1,10 @@
+Template: NONE
+DangerType: None
+Grime: 0.3402627
+BkgDroneVolume: 0
+RandomItemDensity: 0.9794613
+Palette: 4505
+EffectColorB: 18
+Effects: Moth-0.2938634-20-20, 
+PlacedObjects: CustomDecal><403.8874><126.4862><-4.980225~297.4222~339.5239~300.2667~348.7729~-15.64446~-432.8978~230.7555~0.3325295~1~0~reminiscing~1~0~1~0~1~0~1~0, BlinkingFlower><857.2288><168.3512><, BlinkingFlower><321.0002><252.7325><, BlinkingFlower><785.9492><161.4294><, BlinkingFlower><386.4239><224.9224><, BlinkingFlower><313.1482><227.3244><, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><782.6467><565.1704><0.3066685><1, OMNI><AM_ENV-Outside.ogg><726.5419><471.4154><0.4536007><1, OMNI><AM_ENV-Pasture.ogg><449.014><430.2156><0.3762685><1, OMNI><AM_SUB-MysticCave2.ogg><731.4286><219.3678><0.1984034><1, 

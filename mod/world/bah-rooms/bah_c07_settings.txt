@@ -1,0 +1,7 @@
+Template: NONE
+BkgDroneVolume: 0
+Palette: 4510
+EffectColorB: 6
+Effects: Darkness-0.5108696-20-20, 
+PlacedObjects: SuperStructureFuses><414.1981><2179><120~75, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><761.1984><492.2251><0.2173913><1, OMNI><MSC-StructureStrain.ogg><745.0512><203.5219><0.2282609><1, SPOT><SO_SFX-DataTrans.ogg><714.59><386.3214><0.3152174><1><465.59><2244.321><-78.35535><-70.35535><0><0.1, 

@@ -1,0 +1,11 @@
+Template: NONE
+DangerType: AerieBlizzard
+CeilingDrips: 0
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04999999
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 4504
+Effects: Darkness-0.7810574-20-20, Coldness-1-30-30, 
+PlacedObjects: Corruption><867.5408><581.3539><-44.11035~150.4888, Corruption><552.38><338.6007><-38.4187~100, Corruption><854.501><324.9692><0~100, Corruption><160.1177><526.2444><20.63229~51.64447, Corruption><140.0239><290.1265><-51.93649~102.1333, 

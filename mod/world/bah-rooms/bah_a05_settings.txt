@@ -1,0 +1,6 @@
+Template: NONE
+BkgDroneVolume: 0.1478262
+Palette: 4510
+EffectColorB: 6
+PlacedObjects: LightSource><817.4474><591.4678><1~Environment~-461~86~50~86.60254~0~0~None~0~0, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><734.176><488.405><0.3478261><1, OMNI><AM_SUB-MysticCave2.ogg><725.1543><220.1273><0.1956522><1, 

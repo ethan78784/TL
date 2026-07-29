@@ -1,0 +1,13 @@
+0:I see.. This is record of a plant specimen exhibiting never seen before features!:10
+
+0:Well, this is very dusty so it could very well be outdated,:10
+
+0:Apparently it was of a tree-like species that would only grow in extremely cold temperatures.:15
+
+0:There's some logs near the end that describe some plans for an artificial fertilizer<LINE>that would mimic the cold temperatures without keeping their facility at such temperatures.:25
+
+0:I cant imagine how important this must've been! They may have been able to utilize these practices for other flora as well.:30
+
+0:Anyways, I hope this project went well!:50
+
+0:..Why are you looking at me weirdly?:30

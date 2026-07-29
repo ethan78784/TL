@@ -1,0 +1,9 @@
+Template: NONE
+DangerType: None
+BkgDroneVolume: 0
+Palette: 4510
+EffectColorB: 6
+Effects: Darkness-0.1623981-20-20, 
+PlacedObjects: DeepProcessing><97.24887><153.4409><-13.5177~448.1778~2884.411~456.7111~2902.908~-95.28889~0~0~0.4717276~0.9768~0.538666, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><740.1595><492.4479><0.5><1, OMNI><AM_SUB-MysticCave2.ogg><724.441><225.4797><0.5><1, 
+FadePalette: 4506, 0.4259737, 0.6763588, 0.8695652

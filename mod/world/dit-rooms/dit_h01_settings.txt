@@ -1,0 +1,8 @@
+Template: NONE
+Clouds: 0.7282609
+Palette: 4507
+EffectColorA: 19
+EffectColorB: 2
+Effects: ElectricDeath-0.6086956-20-20, Lightning-0.5-30-30, GreenSparks-0.5-40-40, ExtraLoudThunder-0.2934783-50-50, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><740.7898><489.804><0.3043478><1, OMNI><AM_ENV-WallHum.ogg><752.127><434.3455><0.5><1, OMNI><AM_ENV-NatWind.ogg><430.7386><504.3003><0.5543478><1, OMNI><AM_RAIN-RollingThunder.ogg><741.3><307.7459><0.5><1, 
+FadePalette: 0, 0, 0, 0, 0, 0, 0, 0, 0

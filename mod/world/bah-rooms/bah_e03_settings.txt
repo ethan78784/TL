@@ -1,0 +1,5 @@
+Template: NONE
+Palette: 4510
+EffectColorB: 6
+Effects: ZeroG-1-20-20, SSMusic-0.3093298-30-30, 
+AmbientSounds: OMNI><MSC-StructureStrain.ogg><755.6647><206.2367><0.5><1, 

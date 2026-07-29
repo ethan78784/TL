@@ -1,0 +1,10 @@
+Template: NONE
+DangerType: None
+WaveSpeed: 0.5116037
+WaveLength: 0.9941981
+WaveAmplitude: 0.004856709
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 4505
+PlacedObjects: CustomDecal><270.4003><3280><5~399~415~398~417~-2~-371~88~0.326087~1~0~unq - plate4~1~0~1~0~1~0~1~0, CustomDecal><280.3456><2586.011><-8~403~401~402~398~3~-399~12~0~1~0~unq - plate3~1~0~1~0~1~0~1~0, CustomDecal><276.0821><1836.005><-2~410~410~412~415~0~-406~-445.0309~0~1~0~unq - plate2~1~0~1~0~1~0~1~0, CustomDecal><272><1043.013><-5~403~419~404~415~5~-72~131~0~1~0~unq - plate1~1~0~1~0~1~0~1~0, CGGravityGradient><257.3329><3685><100~50~43^-3645~1~0~0.9872826, LightSource><443.8359><161.3643><1~Environment~-201~273~50~86.60254~0~0~None~0~0, SuperStructureFuses><930.2483><3333><66~361, SuperStructureFuses><930.4624><2505.032><90~607, SuperStructureFuses><-92.94669><1766><123~517, SuperStructureFuses><913.1448><527><62~147, SuperStructureFuses><1.198059><1004.472><26~509, SuperStructureFuses><940.5895><1001><106~119, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><771.3036><489.9621><0.5><1, 

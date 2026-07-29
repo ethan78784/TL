@@ -1,0 +1,8 @@
+Template: NONE
+BkgDroneVolume: 0
+Palette: 4510
+EffectColorA: 14
+EffectColorB: 6
+Effects: ZeroG-0.3152174-20-20, Darkness-0.4673913-30-30, 
+PlacedObjects: LightSource><219.1399><624.8929><0.2173913~EffectColor1~-194~-88~77~-4.397461~0~1~None~0~0, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><731.0601><486.7414><0.5><1, SPOT><AM_IND-50hz.ogg><707.5803><339.3924><0.291202><1><215.0167><641.6147><-96.54077><-133.4887><0><0.1, OMNI><SO_SFX-AlphaWaves.ogg><727.6796><560.3754><0.1520041><1, 

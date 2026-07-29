@@ -1,0 +1,4 @@
+Template: NONE
+Palette: 4510
+PlacedObjects: LightSource><484.3901><1937><1~Environment~-507~323~50~86.60254~0~0~None~0~0, LightSource><563><1662><1~Environment~-507~604~50~86.60254~0~0~None~0~0, 
+AmbientSounds: OMNI><AM_IND-DeepHum.ogg><738.6806><311.4141><0.2826087><1, OMNI><AM_RAIN-Rumbles.ogg><739.2148><294.0531><0.173913><1, 

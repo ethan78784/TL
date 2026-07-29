@@ -1,0 +1,6 @@
+Template: NONE
+BkgDroneVolume: 0
+Palette: 4506
+EffectColorA: 4
+EffectColorB: 7
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><749.0524><487.29><0.5><1, 

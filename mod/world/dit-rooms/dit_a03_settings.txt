@@ -1,0 +1,6 @@
+Template: NONE
+Clouds: 0.7173913
+Palette: 4507
+EffectColorB: 0
+Effects: ElectricDeath-0.2608696-20-20, Lightning-0.2282609-30-30, GreenSparks-0.3152174-40-94, 
+AmbientSounds: OMNI><RWTW_AmbDrips_01.ogg><711.3014><519.2267><0.2826087><1, OMNI><AM_IND-SuperStructure.ogg><754.0711><484.8394><0.4130435><1, OMNI><AM_ENV-WallHum.ogg><739.0547><429.2067><0.4130435><1, OMNI><AM_RAIN-RollingThunder.ogg><748.1542><311.6755><0.3695652><1, 

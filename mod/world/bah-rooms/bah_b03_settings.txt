@@ -1,0 +1,6 @@
+Template: NONE
+BkgDroneVolume: 0.3043478
+Palette: 4510
+EffectColorA: 6
+EffectColorB: 6
+AmbientSounds: OMNI><MSC-LowGroans.ogg><705.6384><279.3944><0.1086956><1, OMNI><MSC-StructureStrain.ogg><745.4374><205.8198><0.1086956><1, 

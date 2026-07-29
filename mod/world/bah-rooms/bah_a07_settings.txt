@@ -1,0 +1,6 @@
+Template: NONE
+Palette: 4510
+EffectColorA: 6
+EffectColorB: 12
+PlacedObjects: LightSource><385><284.8562><1~EffectColor2~-210~337~50~86.60254~0~0~Flicker~0~0, 
+AmbientSounds: SPOT><AM_IND-Shock02.ogg><719.9055><519.3758><1><0.9804348><378.9055><284.3758><-66.35535><-56.35535><0.3478261><0.03478274, OMNI><AM_IND-SuperStructure.ogg><726.6926><491.4463><0.173913><1, 

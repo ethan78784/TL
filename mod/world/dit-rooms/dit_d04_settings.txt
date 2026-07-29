@@ -1,0 +1,8 @@
+Template: NONE
+Palette: 2
+EffectColorA: 19
+EffectColorB: 2
+Effects: Contrast-0.05434782-20-20, 
+AmbientSounds: OMNI><AM_ENV-WallHum.ogg><729.5313><433.9475><0.5><1, OMNI><AM_ENV-LightWind.ogg><727.9374><520.9399><0.5><1, 
+BackgroundOffset: 0,217.3913
+BackgroundType: atc_default_msc

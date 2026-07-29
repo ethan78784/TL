@@ -1,0 +1,6 @@
+Template: NONE
+Clouds: 0.4175952
+Palette: 2
+EffectColorB: 2
+Effects: Darkness-0.2717391-20-20, 
+AmbientSounds: OMNI><AM_ENV-WallHum.ogg><3.641018><327.8582><0.5><1, OMNI><AM_IND-SuperStructure.ogg><36.49569><388.95><0.5><1, 

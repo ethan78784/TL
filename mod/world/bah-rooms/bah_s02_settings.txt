@@ -1,0 +1,4 @@
+Template: NONE
+Palette: 4511
+EffectColorB: 6
+PlacedObjects: LightSource><510.9388><420.6904><0.6630435~Environment~-59~156~50~86.60254~0~0~None~0~0, 

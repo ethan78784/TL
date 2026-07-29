@@ -1,0 +1,6 @@
+Template: NONE
+Palette: 4510
+EffectColorB: 6
+Effects: WaterGlowworm-0.5-20-20, 
+PlacedObjects: HazerMom><567.8918><408.8589><0~0~7~10, AlbinoFormHazer><296.7565><384.8863><0~0~7~10, Hazer><233.2126><578.8><0~0~7~10, Hazer><658.7391><624.9428><0~0~7~10, Hazer><169.9683><670.8132><0~0~7~10, 
+AmbientSounds: OMNI><MSC-StructureStrain.ogg><741.3467><206.6284><0.2065217><1, OMNI><MSC-LowGroans.ogg><781.9993><279.8><0.1630435><1, 

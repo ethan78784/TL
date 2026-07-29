@@ -1,0 +1,9 @@
+Template: NONE
+Grime: 0
+Palette: 4510
+EffectColorA: 15
+EffectColorB: 6
+Effects: BrokenZeroG-1-20-20, SSSwarmers-0.4565217-28-121, 
+PlacedObjects: LightSource><309.7969><333.6944><1~Environment~-25~144~1~96.60254~0~0~None~0~0, LightSource><170.0716><473.0905><1~Environment~-5~116~50~86.60254~0~0~None~0~0, LightSource><715.8196><68.43754><1~Environment~-171~302~50~86.60254~0~0~None~0~0, SuperStructureFuses><76><84.12382><171~199, SuperStructureFuses><605><450.6371><190~176, LightSource><456.2848><185.4469><1~Environment~-130~252~50~86.60254~0~0~None~0~0, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><740.1096><492.4173><0.423913><1, OMNI><AM_SUB-MysticCave1.ogg><766.0994><235.6183><0.3586957><1, 
+FadePalette: 4511, 0.5869565

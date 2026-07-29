@@ -1,0 +1,6 @@
+Template: NONE
+BkgDroneVolume: 0
+Palette: 4510
+EffectColorB: 6
+PlacedObjects: LightSource><522.1514><574.1307><1~Environment~-321~186~80~-39.39746~0~0~None~0~0, LightSource><363.1622><140.0703><1~Environment~-112~289~50~86.60254~0~0~None~0~0, LightSource><642.683><135.9385><1~Environment~-110~303~50~86.60254~0~0~None~0~0, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><765.6797><488.5877><0.5><1, OMNI><MSC-StructureStrain.ogg><727.8149><203.5758><0.2065217><1, OMNI><SO_SFX-DataTones.ogg><720.3061><397.0489><0.5><1, 

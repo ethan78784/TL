@@ -1,0 +1,27 @@
+Template: NONE
+DangerType: None
+WaveSpeed: 0.6556689
+WaveLength: 0.8949917
+WaveAmplitude: 0.2726427
+SecondWaveLength: 0.4456522
+SecondWaveAmplitude: 0
+Clouds: 0
+BkgDroneVolume: 0
+Palette: 29
+EffectColorA: 6
+EffectColorB: 14
+TerrainLight: 0.6701315
+TerrainStainAmount: 0
+TerrainStainBrightness: 0.4072
+TerrainStainHeight: 0.2706631
+TerrainWaves: 0.5258603
+TerrainEdgeRadius: 42.98679
+TerrainGrain: 0.6515954
+TerrainDepth: -0.8240476
+TerrainSkyFade: 0
+TerrainPalette: test_badlands_2
+Effects: SilenceWater-1-20-20, Fog-0.326087-30-30, HeatWave-0.28613-17.94479-138.8444, SandPuffs-1-40-40, TinyDragonFly-0.2087975-50-50, RockFlea-0.1391983-60-60, WaterGlowworm-0.3093297-70-70, SkyBloom-1-80-80, 
+PlacedObjects: WaterCurrent><2632.341><316.0444><-22.05524~2979.733~955.0015~469.0545, CustomDecal><1749.921><3346.09><-386.3218~307.3778~-40.39484~665.7776~313.9116~297.9556~-589.799~-21.33331~0.3247963~0.334941~0.4021285~unq - plate5~0.5360058~0.5258603~0.5360058~0.5258603~0.5360058~0.5258603~0.5360058~0.5258603, LocalTerrain><48.61247><3658.979><228.3111~2155.403^-94.57776~-34.15001^46.66666~2151.846^-65.86667~, LocalTerrain><1972.819><3592.312><153.3334~360.8123^-145.1999~14.22917^-6.666626~273.3034^37.82237~, BlackSpot><74.5037><758><0~40~40~40~40~0, BlackSpot><26.92084><3410.111><-89.64375~273.9556~2225.6~104.7111~2346.18~-0.04444885, CustomChatlogToken><624.3712><3800.341><-13~-64~0~0~Sorry, DeadTokenStalk><537><3750><64~-48, DeadTokenStalk><737><3768><-66~-62, 
+AmbientSounds: OMNI><AM_ENV-Outside.ogg><785.3491><473.4173><0.651744><1, OMNI><AM_ENV-CityTone.ogg><741.3101><568.4246><0.1758038><1, OMNI><am_wat-shoreline.ogg><725.886><442.6034><0.326087><1, OMNI><am_win-nicewnd.ogg><714.6843><396.1724><0.4130435><1, 
+BackgroundOffset: -463.9933,309.332
+BackgroundType: atc_si_vanilla

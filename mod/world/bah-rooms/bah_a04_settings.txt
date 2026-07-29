@@ -1,0 +1,7 @@
+Template: NONE
+BkgDroneVolume: 0
+Palette: 4511
+EffectColorB: 6
+Effects: ZeroG-1-20-20, 
+PlacedObjects: CoralCircuit><477.8614><342.1661><-40~108, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><735.5783><493.184><0.5><1, OMNI><SO_SFX-DataTrans.ogg><734.1899><386.4374><0.1521739><1, 

@@ -1,0 +1,5 @@
+Template: NONE
+Palette: 0
+EffectColorA: 3
+EffectColorB: 18
+FadePalette: 4505, 0.4586731

@@ -1,0 +1,15 @@
+Template: NONE
+DangerType: Flood
+CeilingDrips: 0.2717391
+WaveSpeed: 0.4775711
+WaveLength: 0.9887856
+WaveAmplitude: 0.03884887
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0
+Grime: 0.4021739
+RandomItemSpearChance: 0.123913
+Palette: 4506
+Effects: LethalWater-1-20-20, Darkness-0.75-206-62, SilenceWater-0.5434783-73-101, HeatWave-0.5217391-30-30, Bloom-1-40-40, Toxic Brine Water-1-50-50, ReplaceCorruptionColor-1-806-413-Color-0.1086956-1-0.1086956, 
+PlacedObjects: Corruption><234.6774><32.18636><-175~144, Corruption><1055.638><15.39513><-105~150, Corruption><245.176><661.1859><-138~166, WallLight><171.7656><287.9494><62.00003~77~171.7656~287.9494~-23~189~977~2~998~161~0.2826087~0.4130435~0.3586957~False~SkyColor~False~False~Always~Soft, LightSource><670><535.8771><1~Environment~-32~94~14~-26.39746~0~0~None~0~0, Corruption><1001.678><681.1589><-130~166, ExitSymbolHidden><669.0504><356.4867><, Corruption><669.2637><358.4495><34~58, Filter><669.1064><358.6693><-1~73~0~0~White|Yellow|Red|Rivulet|Artificer|Saint|Spear|Gourmand|Watcher|theslug, 
+AmbientSounds: OMNI><AM_IND-Factory01.ogg><716.5805><218.3938><0.5><1, OMNI><AM_SUB-CaveTone.ogg><731.7479><250.95><0.5><1, OMNI><OM.wav><758.1301><553.9019><0.3043478><1, OMNI><RWTW_AmbDrips_01.ogg><708.3523><451.5781><0.5><1, 

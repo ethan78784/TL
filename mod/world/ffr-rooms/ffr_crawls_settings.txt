@@ -1,0 +1,6 @@
+Template: NONE
+DangerType: Rain
+Palette: 4506
+EffectColorA: 5
+EffectColorB: 5
+PlacedObjects: LightSource><759.0901><520.3701><1~Environment~-1030~97~50~86.60254~0~0~None~0~0, LightSource><233.8359><465.0694><1~Environment~921~-228~50~86.60254~0~0~None~0~0, 

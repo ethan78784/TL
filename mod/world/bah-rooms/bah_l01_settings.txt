@@ -1,0 +1,9 @@
+Template: NONE
+DangerType: None
+BkgDroneVolume: 0
+Palette: 4511
+EffectColorA: 8
+EffectColorB: 6
+Effects: ZeroG-1-20-20, SSMusic-0.3275022-30-30, 
+PlacedObjects: SuperStructureFuses><987><1615><1020~676, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><763.2147><490.5531><0.5><1, OMNI><AM_IND-50hz.ogg><712.4401><339.1878><0.2065217><1, 

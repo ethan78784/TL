@@ -1,0 +1,7 @@
+Template: NONE
+DangerType: None
+BkgDroneVolume: 0
+Palette: 4511
+EffectColorB: 6
+Effects: Darkness-0.5217391-20-20, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><721.0652><488.5192><0.5><1, 

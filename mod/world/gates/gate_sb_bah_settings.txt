@@ -1,0 +1,7 @@
+Template: NONE
+Palette: 4505
+EffectColorA: 15
+EffectColorB: 6
+Effects: Darkness-0.5258605-20-20, Bloom-0.5413269-30-30, WaterGlowworm-0.2474637-40-40, 
+PlacedObjects: CommonGateData><482><249.5169><-467.7438~-23.95557~False~True~False~True~False~False~False~True~0.1847826~0.5869565~1, WaterDrips><431><448.4493><-294~144~-295.2552~50.48889~1, LightSource><993.4353><460.6089><0.06427731~EffectColor2~-216.2834~201.6889~-418.1396~46.78027~0~1~None~0~0, LightSource><970.8538><29.54581><0.05654244~EffectColor2~-161.5011~233.6889~-147.074~128.5581~0~1~None~0~0, 
+FadePalette: 4510, 0.7173913

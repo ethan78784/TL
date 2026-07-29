@@ -1,0 +1,4 @@
+Template: NONE
+DangerType: None
+Palette: 4507
+PlacedObjects: LightSource><627.6307><349.9106><0.3804348~Environment~-84~72~50~86.60254~0~0~None~0~0, 

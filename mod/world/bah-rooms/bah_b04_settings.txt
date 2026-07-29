@@ -1,0 +1,7 @@
+Template: NONE
+BkgDroneVolume: 0
+Palette: 4511
+EffectColorB: 6
+Effects: ZeroG-1-20-20, Darkness-0.2934783-30-30, 
+PlacedObjects: SuperStructureFuses><989.6224><284.6581><56~97, SuperStructureFuses><1784.318><270.4383><41~52, LightSource><1837.201><608.694><1~Environment~0~100~59~-62.39746~0~0~None~0~0, LightSource><1316.853><568.3858><1~Environment~-59~172~50~86.60254~0~0~None~0~0, LightSource><803.5785><540.816><1~Environment~-9~197~50~86.60254~0~0~None~0~0, LightSource><251.8785><427.9033><1~Environment~-2~129~50~86.60254~0~0~None~0~0, LightSource><1321.529><82.80215><1~Environment~-29~270~50~86.60254~0~0~None~0~0, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><698.5594><492.9395><0.5><1, OMNI><AM_RAIN-RollingThunder.ogg><738.5199><312.449><0.2934783><1, OMNI><AM_RAIN-Rumbles.ogg><690.6957><298.0414><0.2282609><1, SPOT><SO_SFX-DataTrans.ogg><692.7664><383.6993><0.5><1><1803.766><294.6993><-35.35534><-35.35534><0><0.1, SPOT><SO_SFX-DataTrans2.ogg><727.8479><368.3701><0.5><1><1016.848><334.3701><-72.35535><-69.35535><0><0.1, 

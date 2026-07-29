@@ -1,0 +1,5 @@
+Template: NONE
+Palette: 4503
+EffectColorB: 2
+BackgroundOffset: 0,1086.956
+BackgroundType: atc_default_msc

@@ -1,0 +1,5 @@
+Template: NONE
+DangerType: FloodAndRain
+Palette: 4510
+Effects: ZeroG-1-20-20, WaterGlowworm-0.7934783-30-30, 
+AmbientSounds: OMNI><AM_RAIN-RollingThunder.ogg><757.8248><309.3465><0.7065217><1, OMNI><AM_RAIN-Rumbles.ogg><466.6978><358.7206><0.3586957><1, OMNI><AM_IND-SuperStructure.ogg><738.3><486.2487><0.3913043><1, 

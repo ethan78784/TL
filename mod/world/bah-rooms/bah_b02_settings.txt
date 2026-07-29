@@ -1,0 +1,8 @@
+Template: NONE
+Clouds: 0
+Palette: 4510
+EffectColorA: 15
+EffectColorB: 6
+Effects: LightRain-0.6630435-20-20, Flies-0.3913043-32-124, 
+PlacedObjects: JellyFish><1638.094><240.8235><0~0~2~3, JellyFish><1595.187><244.6786><0~0~2~3, DangleFruit><1162.785><361.0532><0~0~2~3, DangleFruit><1218.535><327.9469><0~0~2~3, DangleFruit><1098.443><354.8084><0~0~2~3, DangleFruit><1027><381.3196><0~0~2~3, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><735.3254><488.5976><0.4891304><1, 

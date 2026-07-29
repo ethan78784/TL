@@ -1,0 +1,14 @@
+Template: NONE
+DangerType: AerieBlizzard
+CeilingDrips: 0
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04999999
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0.4782609
+Palette: 4504
+EffectColorA: 4
+Effects: Darkness-0.6413044-20-20, Fog-0.4782609-30-30, FWFog-0.765591-40-40, 
+PlacedObjects: Corruption><48.94315><60.05826><-20~113, Corruption><263.8139><554.3234><0~100, LightSource><452.6418><572.1682><0.2065217~EffectColor1~-461~131~-443~-37.39746~0~0~None~0~0, UniqueDataPearl><892.6646><128.1212><0~0~0~0~TreePearl_FFR~0, 
+AmbientSounds: OMNI><AM_ENV-WinterHum.ogg><727.8368><402.1344><0.5><1, OMNI><AM_ENV-CityTone.ogg><735.3812><560.3391><0.5><1, OMNI><AM_ENV-Outside.ogg><733.8569><472.1397><0.3478261><1, 

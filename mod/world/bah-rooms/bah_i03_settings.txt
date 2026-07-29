@@ -1,0 +1,9 @@
+Template: NONE
+BkgDroneVolume: 0.1043479
+Palette: 4511
+EffectColorA: 15
+EffectColorB: 6
+Effects: Darkness-0.2065217-20-20, 
+PlacedObjects: SuperStructureFuses><1265.648><849><500~543, ExitSymbolHidden><2604.048><1107.838><, ExitSymbolHidden><2625.739><1111.313><, 
+AmbientSounds: OMNI><RWTW_DeepRumble_02.ogg><758.95><508.7466><0.326087><1, OMNI><MSC-StructureStrain.ogg><639.1893><571.0645><0.173913><1, OMNI><AM_IND-SuperStructure.ogg><736.8703><490.5978><0.5><1, 
+FadePalette: 31, 0, 0, 0, 0, 0, 0.3043478, 0, 0, 0

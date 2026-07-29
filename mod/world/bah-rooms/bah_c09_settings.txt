@@ -1,0 +1,9 @@
+Template: NONE
+DangerType: None
+BkgDroneVolume: 0
+Palette: 4506
+EffectColorA: 4
+EffectColorB: 6
+Effects: Toxic Brine Water-1-36.44272-83.37778, 
+PlacedObjects: WallLight><257.2969><197.4507><150~50~257.2969~197.4507~0~100~2687.574~-0.7111053~2711.764~85.77777~0.2783973~0.2525363~0.4354732~False~SkyColor~False~False~Always~Soft, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><754.1322><486.479><0.5><1, OMNI><AM_SUB-MysticCave2.ogg><741.5934><217.4177><0.5><1, 

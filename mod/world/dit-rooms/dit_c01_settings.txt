@@ -1,0 +1,7 @@
+Template: NONE
+Clouds: 0.8260869
+Palette: 2
+EffectColorA: 19
+EffectColorB: 2
+AmbientSounds: OMNI><AM_ENV-WallHum.ogg><735.6788><429.1605><0.3369565><1, OMNI><AM_IND-SuperStructure.ogg><763.1768><489.8139><0.3913043><1, 
+FadePalette: 4507, 0.6086956, 0.6086956, 0.6086956

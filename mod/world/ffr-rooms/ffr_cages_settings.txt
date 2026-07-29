@@ -1,0 +1,14 @@
+Template: NONE
+DangerType: AerieBlizzard
+CeilingDrips: 0
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04999999
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 4504
+EffectColorA: 13
+EffectColorB: 8
+Effects: Darkness-0.8478261-20-20, Fog-0.07608695-30-30, Coldness-1-40-40, 
+PlacedObjects: WallLight><59.80658><689.4492><-46~-286~59.80658~689.4492~123~-281~34~1~308~-238~0.05434782~0.6847826~1~False~BlackColor~False~False~Always~Soft, Corruption><802.9302><555.413><-158~79, Corruption><924.1943><59.04723><-27~68, WallLight><209.9499><391.7573><-431.8458~-117.0667~209.9499~391.7573~-149~-219~27~0~156~-201~0.05434782~0.6195652~0.6413044~False~SkyColor~False~False~Always~Soft, WallLight><543.1836><392.6707><-449~-4~543.1836~392.6707~-109~-112~21~1~144~-103~0.06521739~0.6086956~0.6739131~False~SkyColor~False~False~Always~Soft, LightSource><354><567.6593><0.4456522~EffectColor1~-4~76~-311.1854~7.846985~0~0~Flash~0.5217391~0, Corruption><495.9456><621.0419><149~30, LightSource><742.1917><348.4103><0.6520041~EffectColor2~0~100~50~86.60254~0~0~Flicker~0.07974376~0, SteamPipe><717.1082><345.1481><29.88129~1.155548, CustomEntranceSymbol><740.918><347.3914><-414.6795~62~Symbol_Unknown~0, 
+AmbientSounds: OMNI><AM_IND-50hz.ogg><755.697><337.9428><0.2608696><1, OMNI><AM_ENV-WinterHum.ogg><742.9106><402.4289><0.5><1, OMNI><AM_ENV-CityTone.ogg><753.476><561.4485><0.5><1, 

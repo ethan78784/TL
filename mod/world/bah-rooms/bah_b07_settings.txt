@@ -1,0 +1,8 @@
+Template: NONE
+BkgDroneVolume: 0
+Palette: 4510
+EffectColorA: 12
+EffectColorB: 6
+Effects: BrokenZeroG-1-20-20, 
+PlacedObjects: GravityDisruptor><493.5997><1111><, GravityDisruptor><493><380><, LightSource><488.1314><375.5992><1~EffectColor1~-837~413~50~86.60254~0~0~None~0~0, LightSource><493.3352><1104.613><1~EffectColor1~-695~-491~50~86.60254~0~0~None~0~0, SSLightRod><386.119><372><17.32051~-10~0.1304348~270~451.7391~0.5, SSLightRod><600><366.4416><17.32051~-10~0.1630434~90~476.5214~0.5543475, SSLightRod><490.0256><480.3017><17.32051~-10~0.1847826~0~625.2174~0.5, SSLightRod><596><1113><17.32051~-10~0.1739129~90~476.5214~0.5, SSLightRod><373><1108><17.32051~-10~0.173913~270~451.7391~0.5, SSLightRod><491><1211><17.32051~-10~0.08695652~0~236.9565~0.5, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><748.6841><488.1867><0.5><1, OMNI><SO_SFX-AlphaWaves.ogg><737.7698><565.4374><0.3840013><1, OMNI><SO_SFX-Drowning.ogg><724.478><308.1087><0.5><1, 

@@ -1,0 +1,13 @@
+Template: NONE
+DangerType: None
+WaveSpeed: 0.47354
+WaveLength: 0.98677
+WaveAmplitude: 0.01383398
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0
+Palette: 4502
+EffectColorA: 15
+EffectColorB: 2
+PlacedObjects: WallLight><765.3885><578.416><150~50~765.3885~578.416~-231~-170~32~-3~235~-169~0.1086956~0.3913043~0.7608696~False~SkyColor~False~False~Always~Soft, LightSource><647.7><526.2493><0.3369561~EffectColor2~-139~213~50~86.60254~0~0~None~0~0, 
+AmbientSounds: OMNI><AM_ENV-Outside.ogg><737.6674><477.8178><0.3478261><1, 

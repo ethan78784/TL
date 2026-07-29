@@ -1,0 +1,7 @@
+Template: NONE
+Palette: 31
+EffectColorA: 9
+EffectColorB: 6
+Effects: VoidMelt-0.4485283-20-20, VoidSpawn-0.1082654-30-30, 
+PlacedObjects: LightSource><408.1439><93.95535><1~EffectColor1~-637.4667~609.1556~50~86.60254~0~0~None~0~0, 
+BackgroundType: rws_noworm

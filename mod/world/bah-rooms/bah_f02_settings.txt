@@ -1,0 +1,7 @@
+Template: NONE
+Palette: 4510
+EffectColorA: 13
+EffectColorB: 6
+PlacedObjects: LightSource><470.3718><278.1716><0.2173913~EffectColor1~-407.6656~645.4222~50~86.60254~0~0~None~0~0, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><761.0628><488.4414><0.2989356><1, OMNI><AM_SUB-MysticCave2.ogg><714.3221><222.5425><0.2602692><1, OMNI><MSC-StructureStrain.ogg><761.0822><204.8347><0.1520041><1, 
+FadePalette: 31, 0.05413271, 0.1778646, 0.3557291, 0.6650588, 0.8661232, 1

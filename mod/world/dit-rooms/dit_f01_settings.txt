@@ -1,0 +1,12 @@
+Template: NONE
+RainIntensity: 0.09782609
+RumbleIntensity: 0.1195652
+Clouds: 0.1623983
+Palette: 2
+EffectColorA: 19
+EffectColorB: 2
+Effects: SkyBloom-1-20-20, Contrast-0.0326087-30-30, 
+PlacedObjects: WallLight><761.1522><4561><-689.0001~-50~761.1522~4561~405~100~-305~-278~-179~-625~0.5217391~0.9891304~0.3695652~False~EffectColor2~False~False~Always~Soft, 
+AmbientSounds: OMNI><AM_ENV-WallHum.ogg><10.80601><333.2986><0.5><1, OMNI><AM_ENV-LightWind.ogg><20.17961><418.838><0.5434783><1, 
+BackgroundOffset: 0,491.0547
+BackgroundType: atc_default_msc

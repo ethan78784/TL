@@ -1,0 +1,5 @@
+Template: NONE
+Palette: 4510
+EffectColorB: 6
+Effects: Darkness-0.519588-20-20, 
+PlacedObjects: LightSource><328.3033><350.0558><1~Environment~-165.0583~246.4889~50~86.60254~1~0~None~0~0, LightSource><794.7386><307.2205><1~Environment~-111.699~159.0222~50~86.60254~1~0~None~0~0, 

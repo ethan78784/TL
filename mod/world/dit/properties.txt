@@ -1,0 +1,5 @@
+Subregion: The City Cliffs
+Subregion: The Bellow
+overseersSpawnChance: 2
+overseersMax: 20
+overseersMin: 1

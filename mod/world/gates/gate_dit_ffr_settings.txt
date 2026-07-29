@@ -1,0 +1,14 @@
+Template: NONE
+DangerType: AerieBlizzard
+CeilingDrips: 0.1906702
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04999999
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 4504
+EffectColorA: 18
+EffectColorB: 10
+Effects: Darkness-0.5645267-20-20, Bloom-0.5490603-30-30, 
+PlacedObjects: CommonGateData><487.3885><228.6311><-680.0354~-111.9111~False~False~False~False~False~False~False~True~0.8043478~0.4130435~1, LightSource><247.7385><257.5503><0.2065217~EffectColor1~-475~297~50~86.60254~0~0~None~0~0, LightSource><763.6938><242.701><0.2173913~EffectColor2~-1075~-225~50~86.60254~0~0~None~0~0, 
+FadePalette: 4507, 0.7106431

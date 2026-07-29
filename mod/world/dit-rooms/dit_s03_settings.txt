@@ -1,0 +1,6 @@
+Template: NONE
+Palette: 2
+EffectColorA: 19
+EffectColorB: 2
+Effects: Darkness-0.3695652-20-20, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><714.6342><566.6483><0.2934783><1, 

@@ -1,0 +1,10 @@
+Template: NONE
+DangerType: FloodAndRain
+Palette: 4511
+EffectColorA: 7
+EffectColorB: 6
+Effects: Darkness-0.1195652-30-30, HeavyRain-0.07608695-29-119, GreenSparks-0.3369565-28-232, 
+PlacedObjects: MarineEye><1178.247><158.0202><-338.0068~105.0049~2~3, MarineEye><1313.854><178.7657><-238.3157~219.6093~2~3, Hazer><2050.966><127.1636><0~0~7~10, Hazer><1715.223><113.335><0~0~7~10, DeadHazer><1025.816><110.4215><-152~40~7~10, ColoredSparks><600.2146><374.772><, SeedCob><1242.414><150.1326><0~0~7~10, 
+AmbientSounds: OMNI><AM_RAIN-RollingThunder.ogg><736.8013><308.5232><0.5><1, OMNI><AM_WAT-Sea01.ogg><692.6047><190.6126><0.5><1, OMNI><AM_WIN-StrongWnd2.ogg><736.9846><506.6994><0.4891304><1, 
+BackgroundOffset: 869.565,434.7825
+BackgroundType: atc_si_vanilla

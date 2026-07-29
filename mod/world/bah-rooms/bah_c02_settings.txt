@@ -1,0 +1,5 @@
+Template: NONE
+Palette: 4510
+EffectColorB: 6
+PlacedObjects: Vine><768.8933><1893><-272~340, Vine><605.3213><2157><-293~28, 
+AmbientSounds: OMNI><MSC-StructureStrain.ogg><719.7012><205.944><0.1086956><1, 

@@ -1,0 +1,9 @@
+Template: NONE
+RainIntensity: 0.3043478
+RumbleIntensity: 0.3152174
+Palette: 2
+EffectColorA: 19
+EffectColorB: 2
+Effects: Contrast-0.08695652-20-20, 
+AmbientSounds: OMNI><AM_ENV-WallHum.ogg><709.8373><426.8836><0.4347826><1, OMNI><AM_IND-SuperStructure.ogg><757.8798><487.1599><0.2934783><1, 
+FadePalette: 28, 0.4021739

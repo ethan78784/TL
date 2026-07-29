@@ -1,0 +1,5 @@
+Template: NONE
+BkgDroneVolume: 0.09347833
+Palette: 4510
+EffectColorB: 6
+AmbientSounds: OMNI><AM_IND-DeepHum.ogg><757.9288><310.9369><0.2717391><1, OMNI><AM_RAIN-Rumbles.ogg><739.0507><298.7661><0.2173913><1, 

@@ -1,0 +1,10 @@
+Template: NONE
+DangerType: None
+CeilingDrips: 0
+Grime: 0
+Palette: 31
+EffectColorA: 14
+Effects: ZeroG-1-20-20, RoomWrap-1-30-30, VoidMelt-0.5869565-37-81, VoidSpawn-0.4891304-40-121, VoidSea-0.1847826-36-184, ZeroGSpecks-0.3478261-40-40, ReplaceCorruptionColor-1-692-336-Color-1-0.5108696-0.7826087, 
+PlacedObjects: LightSource><489.1234><164.4074><1~EffectColor1~-214~423~244~224.6026~0~0~None~0~0, LightSource><489.3476><2687><1~EffectColor1~-288~365~50~86.60254~0~0~None~0~0, Corruption><360.7194><97.55235><0~100, 
+AmbientSounds: OMNI><rwtw_elderrippleambiance.ogg><739.0596><367.811><0.1521739><1, 
+BackgroundType: rws_noworm
