@@ -6,4 +6,4 @@
 
 0:In fact, this was dated way before I was built! Maybe you found this in an abandoned city? <LINE> I only know of the one below my structure.:10
 
-0:Either way, this pearl is very valuable given its date.<LINE> I would hold on to this if I were you!:8
+0:Either way, this pearl is very valuable given its date. I would hold on to this if I were you!:8

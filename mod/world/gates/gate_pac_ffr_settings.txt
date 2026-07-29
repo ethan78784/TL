@@ -1,6 +1,14 @@
 Template: NONE
+DangerType: AerieBlizzard
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04999999
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
 Clouds: 0
 Palette: 4504
 EffectColorA: 4
 EffectColorB: 11
+Effects: Darkness-0.4130435-20-20, FWFog-1-23-59, 
+PlacedObjects: Corruption><97.8501><337.8268><-7~76, CommonGateData><490.8945><258.6118><100~50~False~False~False~False~False~False~False~True~0.4130435~0.7934783~1, 
 AmbientSounds: OMNI><AM_ENV-CityTone.ogg><739.0504><567.2367><0.5><1, 

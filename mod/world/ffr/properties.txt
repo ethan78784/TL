@@ -1,0 +1,4 @@
+Subregion: Frozen Facilities
+corruptionEffectColor: 0.0, 0.5, 1.0
+corruptionEyeColor: 0.0, 0.5, 0.6
+overseersSpawnChance: 1

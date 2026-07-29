@@ -1,25 +1,27 @@
-5:Ahah! You're here!:5
+5:Ahah! You're here!:10
 
-0:My overseers have been watching you for a while now.:5
+0:My overseers have been watching you for a while now.:25
 
-CONDITIONAL:!MARKEDSLUGCAT:0:I see you obtained that mark from another iterator.:10
+0:Hmm.. How did you obtain that mark? It doesn't look like one my kind could give. :30
 
-0:It is good to finally see you face to face, <PLAYERNAME>!:5
+0:Oh! I see what it is. It's an identifier my benefactors kind used for marking various creatures.:50
 
-0:. . .:30
+0:Are you lost little one? You may have belonged to someone before.:40
 
-0:What's with that look on your face? I'm not going to hurt you..:20
+0:Either way, it is good to finally see you face to face, little creature!25
 
-0:Though I understand being skittish in front of something so god-like.:20
+0:. . .:100
 
-0:If you are looking for a way out,<LINE> my benefactors have discovered a quicker alternative to their previous methods.:20
+0:What's with that look on your face? I'm not going to hurt you..:30
 
-0:Head deep down into the earth, where an ancient civilization used to roam <LINE> and where an old train station used to stop at and find you'll your solution there.:10
+0:Though I understand being skittish in front of something so god-like.:30
 
-0:But.. Maybe you are different..:30
+0:If you are looking for a way out,<LINE> my benefactors have discovered a quicker alternative to their previous methods.:40
 
-0:I'm sorry <PLAYERNAME>, I cannot offer any other solution at this time.:20
+0:Head deep down into the earth, where an ancient civilization used to roam <LINE> and where an old train station used to stop at and find you'll your solution there.:60
 
-0:You can come to me any time if it helps you feel safe.:20
+0:But if you aren't looking for an escape, I'm afraid there is not much I can do for you.:30
+
+0:You may come to me any time if it helps you feel any better.:50
 
 0:I wish you luck, <PLAYERNAME>.:30

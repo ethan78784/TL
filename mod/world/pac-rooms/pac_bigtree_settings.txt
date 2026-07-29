@@ -9,6 +9,6 @@ BkgDroneVolume: 0
 Palette: 4504
 EffectColorA: 11
 EffectColorB: 12
-Effects: Coldness-0.6413044-226-98, Salt Flakes-0.2065217-17-116, WindDirection-0,0.25-652-402, SkyBloom-0.5108696-20-20, 
+Effects: Coldness-0.6413044-226-98, Salt Flakes-0.2065217-17-116, WindDirection-0,0.25-652-402, SkyBloom-0.5108696-20-20, FWFog-1-30-30, 
 AmbientSounds: OMNI><AM_ENV-WinterHum.ogg><767.1993><400.7661><0.7173913><1, OMNI><AM_ENV-WinterTrees.ogg><477.8149><414.1743><0.5><1, OMNI><Noise Wind.wav><725.1683><557.142><0.2826087><1, 
 Triggers: RegionBump<tA>event<tB>MusicEvent<eA>songName<eB>RW_80 - Frosted Festival<eA>vol<eB>0.4521737<eA>prio<eB>0.7934783<eA>mxThrt<eB>0.3804348<eA>loop<eB>1<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>1<eA>stopAtGate<eB>1<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>457.7328<tB>331.9493<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB>, 

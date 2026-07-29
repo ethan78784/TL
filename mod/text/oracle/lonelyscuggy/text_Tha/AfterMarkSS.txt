@@ -1,22 +1,30 @@
-IF|HasMark
-SP|turnoff
-SP|gravity|1
-ELSE
 SP|turnoff
 SP|gravity|1
 SP|behavior|Investigate
 WAIT|80
-SP|karma
 END
 
-What is this?|0|20
+. . .|0|30
 
-Some kind of animal has appeared in my chamber.|0|20
+...is this reaching you?|0|25
 
-I don't know how you got in here, but I do not need company right now.|0|20
+A little animal, on the floor of my chamber. I think I know what you are looking for.|0|35
 
-Please, little.. thing. Leave this once.|0|20
+You're stuck in a cycle, a repeating pattern. You want a way out.|0|35
 
-If you want someone to bother, go to my neighbor Looks to the Moon. <LINE> She will appreciate this more than me.|10|30
+Know that this does not make you special - every living thing shares that same frustration.<LINE> From the microbes in the processing strata to me, who am, if you excuse me, godlike in comparison.|0|50
 
-Now go.|0|20
+The good news first. In a way, I am what you are searching for.<LINE>Me and my kind have as our purpose to solve that very oscillating claustrophobia in the chests of you and countless others.<LINE>A strange charity - you the unknowing recipient, I the reluctant gift. The noble benefactors? Depleting.|0|70
+
+The bad news is that no definitive solution has been found. My kind are still searching for the answer to this "Big Problem".|0|40
+
+For you though, there is another way. The old path. Go to the west past the Farm Arrays, and then down into the earth where the land fissures, as deep as you can reach, where the ancients built their temples and danced their silly rituals. The mark you..|0|60
+
+...The mark you own is very unique, little one. It seems to be an identification mark similarly used for "pets".|5|40
+
+If you used to belong to someone, I imagine they must be looking for you regardless of the current situation we're all in.|0|40
+
+But, do what you must.|0|30
+
+Best of luck to you, little animal. You may leave now.|0|40
+

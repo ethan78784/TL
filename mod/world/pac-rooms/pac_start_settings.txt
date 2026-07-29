@@ -1,11 +1,12 @@
 Template: NONE
+DangerType: Flood
 RainIntensity: 0.1956522
 RumbleIntensity: 0.3478261
 Grime: 0.326087
 RandomItemDensity: 0.6195652
 RandomItemSpearChance: 0.06956515
 WaterReflectionAlpha: 1
-Palette: 3
-EffectColorA: 0
+Palette: 4505
+EffectColorA: 2
 EffectColorB: 18
-AmbientSounds: OMNI><am_sub-mysticcave2.ogg><544.8331><426.6397><0.4891304><1, SPOT><RWTW_PlateTree_B1.ogg><738.6274><327.8419><0.2173913><0.8434783><2072.627><187.8419><-35.35534><-35.35534><0.01086957><0.252174, 
+AmbientSounds: OMNI><am_sub-mysticcave2.ogg><544.8331><426.6397><0.4891304><1, 

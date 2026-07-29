@@ -1,5 +1,5 @@
 Template: NONE
-Palette: 4503
+Palette: 4505
 EffectColorA: 2
 EffectColorB: 18
 Effects: SkyBloom-0.4782609-20-20, Ancient Urban View-1-127-115, 

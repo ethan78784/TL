@@ -1,7 +1,7 @@
 Template: NONE
 DangerType: Flood
 BkgDroneVolume: 0
-Palette: 4500
+Palette: 4502
 EffectColorA: 11
 EffectColorB: 18
 Effects: Fog-0.08695652-20-20, Darkness-0.3586957-233-96, RockFlea-0.1195652-0-0, 

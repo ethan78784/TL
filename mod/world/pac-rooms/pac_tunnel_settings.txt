@@ -10,7 +10,7 @@ SecondWaveAmplitude: 0
 Clouds: 0.7934783
 Grime: 0.1195652
 RandomItemDensity: 0.5108696
-Palette: 4500
+Palette: 4505
 EffectColorA: 11
 EffectColorB: 18
 TerrainGooHeight: 1

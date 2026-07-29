@@ -5,7 +5,7 @@ WaveAmplitude: 1.336139E-06
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
 BkgDroneVolume: 0.3043478
-Palette: 4500
+Palette: 4502
 EffectColorA: 17
 EffectColorB: 18
 Effects: SkyBloom-1-20-20, 

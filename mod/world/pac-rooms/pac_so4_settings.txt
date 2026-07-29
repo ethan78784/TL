@@ -1,2 +1,2 @@
 Template: NONE
-Palette: 4503
+Palette: 4502

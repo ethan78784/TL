@@ -2,6 +2,6 @@ Template: NONE
 Palette: 4504
 EffectColorA: 12
 EffectColorB: 11
-Effects: SkyBloom-0.6413044-20-20, Coldness-0.5326087-120-157, Salt Flakes-0.6739131-38-122, 
+Effects: SkyBloom-0.6413044-20-20, Coldness-0.5326087-120-157, Salt Flakes-0.6739131-38-122, FWFog-1-30-30, 
 AmbientSounds: OMNI><Noise Wind.wav><739.4099><568.1201><0.2826087><1, OMNI><AM_ENV-WinterHum.ogg><779.6876><397.56><0.7173913><1, OMNI><AM_ENV-WinterTrees.ogg><533.45><411.2477><0.5><1, 
-Triggers: RegionBump<tA>event<tB>MusicEvent<eA>songName<eB>RW_80 - Frosted Festival<eA>vol<eB>0.4521743<eA>prio<eB>1<eA>mxThrt<eB>1<eA>loop<eB>1<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>-1<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>1<eA>stopAtGate<eB>1<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>533.8019<tB>383.7223<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB>, 
+Triggers: RegionBump<tA>event<tB>MusicEvent<eA>songName<eB>RW_80 - Frosted Festival<eA>vol<eB>0.4521743<eA>prio<eB>1<eA>mxThrt<eB>1<eA>loop<eB>1<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>-1<eA>fadeIn<eB>319.5652<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>1<eA>stopAtGate<eB>1<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>533.8019<tB>383.7223<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB>theslug, 

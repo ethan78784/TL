@@ -1,5 +1,6 @@
 Template: NONE
 DangerType: Rain
+CeilingDrips: 0
 RainIntensity: 0.09782609
 RumbleIntensity: 0.3043478
 WaveSpeed: 0.5
@@ -11,11 +12,11 @@ Clouds: 0
 BkgDroneVolume: 0.3043478
 RandomItemDensity: 0
 RandomItemSpearChance: 0
-Palette: 4503
+Palette: 4505
 EffectColorA: 9
 EffectColorB: 2
 TerrainSkyFade: 0
-Effects: Ancient Urban View-1-271-222, 
+Effects: Ancient Urban View-1-271-222, Dustpuffs-1-20-20, 
 PlacedObjects: UrbanLife><158.0049><327.3109><100~100~158.0049~327.3109~-21.02814~134.8445~53.04376~-92.88889~0~-150~10~0.09999881~0.337602~False~0v0|0v0|0v0, UrbanLife><330.9606><357.8305><100~100~330.9606~357.8305~-94.30832~97.15558~-23.08234~-119.9111~0~-150~10~0.1~0.5~False~0v0|0v0|0v0, UrbanLife><1597.805><334.3937><100~100~1597.805~334.3937~-35.25732~127.0222~33.83435~-101.4222~0~-150~10~0.1~0.5~False~0v0|0v0|0v0, UrbanLife><1749.784><321.8242><100~100~1749.784~321.8242~-95.01978~139.1111~-20.94788~-88.62222~0~-150~10~0.1~0.5~False~0v0|0v0|0v0, UrbanLife><2574.977><364.4976><100~100~2574.977~364.4976~-73.67603~99.57779~3.395813~-131.3111~0~-150~10~0.03478274~0.5~False~0v0|0v0|0v0, UrbanLife><2697.479><364.6437><-469~116~2697.479~364.6437~-100~100~-22.37079~-132~0~-150~10~0.03478274~0.5~False~0v0|0v0|0v0, UrbanCandles><414.4831><228.6077><784.1073~160.8889~547.1073~-4646.111~0~100~4~409.2615~189.4219~0.7666667~3.553478~1.212931~0~447.6513~190.4059~0.7333333~4.301916~1.279816~0~361.0899~190.546~0.7~3.738904~1.089968~0~393.553~190.8969~0.7~2.632627~1.188956~0, KarmaFlower><419.7951><56.30516><-170~138~1~1, UniqueDataPearl><384><55.4476><0~0~0~0~SadPearl_PAC~0, 
 AmbientSounds: OMNI><AM_ENV-CityTone.ogg><700.3157><559.9389><0.5><1, OMNI><AM_ENV-LightWind.ogg><754.4398><517.813><0.2173913><1, 
 Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>NA_19 - Halcyon Memories<eA>vol<eB>0.3541319<eA>prio<eB>1<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0.03093355<eA>rooms<eB>1<eA>rest<eB>0<eA>fadeIn<eB>88.15892<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>1<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>850.181<tB>384.6891<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>439.7833<tB>169.2224<tA>handlePos<tB>-253.0616<tB>-94.37756, 

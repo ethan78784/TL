@@ -1,7 +1,14 @@
 Template: NONE
 DangerType: FloodAndRain
-RainIntensity: 100
-RumbleIntensity: 100
-Clouds: 0
-Palette: 4500
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.3889299
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.2867754
+BkgDroneVolume: 0.1917346
+Palette: 4502
 EffectColorB: 18
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><757.3284><560.6238><0.5><1, OMNI><AM_IND-Warehouse01.ogg><690.3563><417.9571><0.2989356><1, OMNI><AM_SUB-MysticCave1.ogg><703.2822><231.1318><0.3453349><1, 

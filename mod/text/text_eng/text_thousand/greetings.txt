@@ -8,7 +8,7 @@ random:Welcome back, did you have something for me?
 
 random:Hello again, little critter.
 
-random:Yes, welcome back litte one.
+random:Yes, welcome back little one.
 
 random:There is more to explore than my can, you know.<NextChatBox> Not that your company bothers me, little critter.
 

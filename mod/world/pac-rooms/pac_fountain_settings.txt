@@ -9,9 +9,9 @@ SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
 Clouds: 0.2826087
 WaterReflectionAlpha: 1
-Palette: 4501
+Palette: 4505
 EffectColorA: 18
-EffectColorB: 11
+EffectColorB: 2
 Effects: SkyBloom-0.75-1028-551, LightRain-0.02173913-17-69, Moth-0.2826087-0-0, TinyDragonFly-0.05434782-1090-132, DayNight-1-306-307, SeedBats-0-345-74, Ancient Urban View-0.2717391-520.1553-578.9333, Darkness-0-675.2531-411.1111, 
-PlacedObjects: FluxWaterfall><360><1460><3~0.5108696~S~0~0, Hazer><296.665><378.1811><134~166~1~5, Hazer><741.126><415.593><0~0~1~4, InsectGroup><523.6452><270.6125><154~187~-297~-30~WaterGlowworm~0.1195652, HazerMom><299.088><265.1796><-103~128~1~3, Physalis><224.0339><1156.803><-161~68~1~3, Physalis><152.5559><1119.058><-31~-142~1~3, LightSource><348.929><1192.089><1~Environment~-183~7~50~86.60254~0~0~None~0~0, LightSource><329.4351><1474.061><1~Environment~-103~106~50~86.60254~0~0~None~0~0, 
+PlacedObjects: FluxWaterfall><360><1460><3~0.5108696~S~0~0, Hazer><296.665><378.1811><134~166~1~5, Hazer><741.126><415.593><0~0~1~4, InsectGroup><523.6452><270.6125><154~187~-297~-30~WaterGlowworm~0.1195652, HazerMom><299.088><265.1796><-103~128~1~3, LightSource><342.4351><1501.061><1~Environment~-103~106~50~86.60254~1~0~None~0~0, DangleFruit><143.8784><1122.999><-64~-77~2~3, DangleFruit><210.7595><1113><0~0~2~3, DangleFruit><204.4409><1190><-260~-129~2~3, 
 AmbientSounds: OMNI><AM_ENV-Outside.ogg><637.1249><466.4062><0.3913043><0.7065217, OMNI><AM_ENV-Pasture.ogg><754.3649><366.8525><0.5543478><1, OMNI><AM_ENV-LightWind.ogg><650.08><558.6833><0.326087><0.6673913, OMNI><AM_RAIN-Rumbles.ogg><609.3024><312.969><0.25><1, 

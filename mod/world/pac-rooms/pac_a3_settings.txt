@@ -2,8 +2,8 @@ Template: NONE
 DangerType: Flood
 Clouds: 0
 BkgDroneVolume: 0.3043478
-Palette: 4500
-EffectColorA: 11
+Palette: 4502
+EffectColorA: 2
 EffectColorB: 18
-PlacedObjects: LightSource><225.1776><327.5636><0.5~Environment~-103~129~-471.499~-103.2641~0~0~Fade~0.6630435~0, InsectGroup><187.6664><374.5683><-55~102~-339.3657~-142.9333~FireFly~0.1195652, DangleFruit><92.83893><451.6791><-0.7114868~0~2~6, DangleFruit><163.4253><406.3463><-291.6979~-182.7556~2~6, DangleFruit><217.2439><423.8001><-344.3458~-197.6889~2~6, UniqueDataPearl><318.7093><407.9556><-230~209.2917~0~0~ChewToy_PAC~0, 
+PlacedObjects: LightSource><236.561><337.5191><0.5~EffectColor1~-103~129~-409.6021~63.84702~0~0~Flicker~0.07733237~0, InsectGroup><187.6664><374.5683><-55~102~-339.3657~-142.9333~FireFly~0.1195652, DangleFruit><92.83893><451.6791><-0.7114868~0~2~6, DangleFruit><163.4253><406.3463><-291.6979~-182.7556~2~6, DangleFruit><217.2439><423.8001><-312.3302~-310.7556~2~6, UniqueDataPearl><318.7093><407.9556><-230~209.2917~0~0~ChewToy_PAC~0, 
 AmbientSounds: OMNI><AM_ENV-Outside.ogg><714.5603><473.6907><0.5><1, OMNI><AM_ENV-CityTone.ogg><699.2455><570.45><0.5><1, 

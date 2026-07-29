@@ -1,4 +1,4 @@
-Template: pac_settingstemplate_inside
+Template: NONE
 DangerType: Flood
 RainIntensity: 1
 RumbleIntensity: 1
@@ -7,12 +7,15 @@ WaveLength: 0.9501688
 WaveAmplitude: 0.01347855
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
-Grime: 0.4021739
-Palette: 4500
-EffectColorA: 11
+Clouds: 0.6086956
+Grime: 0
+Palette: 4502
+EffectColorA: 2
 EffectColorB: 18
 TerrainLight: 0.173913
 TerrainGrain: 0
 TerrainSkyFade: 0.1956522
 TerrainPalette: NO PALETTE
-PlacedObjects: ExitSymbolHidden><242.5239><137.0504><, ExitSymbolHidden><253.8632><143.6042><, 
+Effects: DayNight-0-30-30, Darkness-0-20-20, 
+PlacedObjects: Vine><548.0583><652.0699><-417.5542~2.06665, Vine><251.7571><666.8001><697~-192, Vine><82.54971><454.8063><473~221, LightSource><76.61731><543.1497><0.4782609~Environment~-279~112~-144.2281~-99.70856~0~0~None~0~0, 
+AmbientSounds: OMNI><AM_SUB-MysticCave2.ogg><698.6949><217.5577><0.5><1, 

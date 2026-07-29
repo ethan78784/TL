@@ -2,8 +2,9 @@ Template: NONE
 DangerType: None
 Clouds: 0
 BkgDroneVolume: 0
-Palette: 4503
+Palette: 4505
 EffectColorA: 18
 EffectColorB: 9
+Effects: Darkness-0.6739131-20-20, 
 PlacedObjects: UrbanLife><211.3424><243.0726><100~100~211.3424~243.0726~-188~-5~40~-82~0~-150~56.95627~0.2304349~0.5154665~False~0v0, 
 AmbientSounds: OMNI><AM_ENV-CityTone.ogg><591.0556><557.9531><0.5><1, 

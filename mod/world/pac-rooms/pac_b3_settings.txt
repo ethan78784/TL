@@ -1,6 +1,12 @@
 Template: NONE
+DangerType: Flood
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04764494
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
 Clouds: 0
-Palette: 502
+Palette: 4505
 EffectColorA: 9
 EffectColorB: 2
 Effects: Ancient Urban View-1-271-222, 

@@ -5,7 +5,8 @@ WaveLength: 0.75
 WaveAmplitude: 0.0407349
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
-Palette: 4500
+Palette: 4502
+EffectColorA: 11
 EffectColorB: 18
-PlacedObjects: InsectGroup><224.4498><220.1936><2~163~0~0~RockFlea~0.5, LanternOnStick><441.8002><554.2401><21~-61, DayNightSettings><309.3936><309.8307><5~8.660254~28~23, UniqueDataPearl><585.3906><512.6218><0~0~0~0~DescPearl_PAC~0, 
+PlacedObjects: InsectGroup><224.4498><220.1936><2~163~0~0~RockFlea~0.5, UniqueDataPearl><492.3906><564.6218><0~0~0~0~DescPearl_PAC~0, LightSource><489.5237><570.0514><0.4456522~EffectColor1~-70~158~62~-71.39746~0~0~None~0~0, DangleFruit><532.4542><228.317><-343.6344~-24.17773~2~3, DangleFruit><560.6694><187.025><0~0~2~3, DangleFruit><478.1994><199.6529><0~0~2~3, 
 AmbientSounds: OMNI><am_sub-mysticcave2.ogg><-1000><-1000><0.5><1, 

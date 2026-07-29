@@ -1,6 +1,7 @@
 Template: NONE
+DangerType: Flood
 BkgDroneVolume: 0.3043478
-Palette: 4500
+Palette: 4502
 EffectColorA: 0
 EffectColorB: 18
 AmbientSounds: OMNI><AM_SUB-MysticCave2.ogg><718.8526><219.1148><0.5><1, 

@@ -1,4 +1,4 @@
-1:Oh a data pearl! Would you like to me reed it?
+1:Oh a data pearl! Would you like to me read it?
 2:Another pearl! I will read this one as well.
 3:Another? I appreciate all the gifts, little one!
 4:A pearl, lets take a look.

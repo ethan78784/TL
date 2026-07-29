@@ -1,21 +1,21 @@
-0:..I feel like I am intruding on a personal matter upon inspecting this pearl.:7
+0:..I feel like I am intruding on a personal matter upon inspecting this pearl.:30
 
-0:Its a message one of my creators species created for a deceased friend.:8
+0:Its a message one of my creators species created for a deceased friend.:30
 
-0:I cannot tell how they are "deceased". but it may unnatural or unheard of.:8
+0:I cannot tell how they are "deceased". but it may unnatural or unheard of.:30
 
-0:The pearl reads; "Oh dear friend, if you could see how much has changed.":8
+0:The pearl reads; "Oh dear friend, if you could see how much has changed.":30
 
-0:"I hope you are safe, wherever you are.":5
+0:"I hope you are safe, wherever you are.":30
 
-0:"The least I could do is put some of your possessions in your old room..":8
+0:"The least I could do is put some of your possessions in your old room..":30
 
-0:"I'm not sure you consider your belongings a sin, but nonetheless..":9
+0:"I'm not sure you consider your belongings a sin, but nonetheless..":25
 
-0:"See you soon, my friend.":5
+0:"See you soon, my friend.":30
 
-0:Then it is followed by various images of said "friend".:7
+0:Then it is followed by various images of said "friend".:30
 
-0:...:10
+0:...:50
 
-0:Please try your best to put this back.. I'm sure it would mean a lot to whoever put this there.:10
+0:Please try your best to put this back.. I'm sure it would mean a lot to whoever put this there.:60

@@ -1,7 +1,8 @@
 Template: NONE
 BkgDroneVolume: 0.04347826
-Palette: 4500
+Palette: 4502
 EffectColorA: 12
 EffectColorB: 18
+Effects: FWFog-0.9130435-20-20, 
 AmbientSounds: OMNI><am_env-outside.ogg><259.4495><337.4852><0.5><1, OMNI><am_sub-mysticcave1.ogg><257.5847><416.8626><0.5><1, 
 FadePalette: 4504, 0.1195652, 0.1630435
