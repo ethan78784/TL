@@ -352,22 +352,22 @@ namespace TL.ethan.theloner.misc
                         bombTimer++;
                     }
 
-                    if (bombTimer > 120 && !blowsUpSlugWithMind && fadeOutBlack != null) {
+                    if (bombTimer > 60 && !blowsUpSlugWithMind && fadeOutBlack != null) {
                             
                         fadeOutRed = new FadeOut(room, new Color(0.3f, 0f, 0f), 15f, false);
                         room.AddObject(fadeOutRed);
-                        room.PlaySound(SoundID.Bomb_Explode);
+                        room.PlaySound(SoundID.Bomb_Explode, player.mainBodyChunk, false, 2.0f, 1.0f);
 
                         blowsUpSlugWithMind = true;
                     }
 
 
-                    if (bombTimer > 240 && fadeOutRed != null) {
+                    if (bombTimer > 120 && fadeOutRed != null) {
                         fadeOutRed.fadeColor = Color.Lerp(fadeOutRed.fadeColor, new Color(0f, 0f, 0f, 1.0f), 0.05f);
                     }
 
 
-                    if (bombTimer > 400) {
+                    if (bombTimer > 200) {
                         SaveDataHelper.THESLUG_NOLOOSEENDS.SaveToCampaign(room.game.GetStorySession.saveState);
                     
                         room.game.GoToRedsGameOver();
