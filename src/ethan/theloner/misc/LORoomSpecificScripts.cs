@@ -285,20 +285,24 @@ namespace TL.ethan.theloner.misc
         }
 
         private class BaringHorns_EndScene : UpdatableAndDeletable {
-
-            private const float fadeoutDuration = 200f;
-            private readonly Color fadeoutColor = Color.black;
+            
             private readonly string[] finalMessage = { "<#732e2c>TID: I'm sorry." };
             
             private Player player;
             
-            private FadeOut fadeOutInstance;
+            private FadeOut fadeOutBlack;
+            private FadeOut fadeOutRed;
             
             
             private bool isInBroadcast;
             private bool doneFinalSave;
 
+            private bool lastWords;
+            
+            private bool blowsUpSlugWithMind;
+
             private int cutsceneTimer = 0;
+            private int bombTimer = 0;
 
             public override void Update(bool eu) {
                 base.Update(eu);
@@ -321,29 +325,56 @@ namespace TL.ethan.theloner.misc
                     cutsceneTimer++;
                     player.Stun(25);
 
-                    if (fadeOutInstance == null) {
-                        fadeOutInstance = new FadeOut(room, fadeoutColor, fadeoutDuration, false);
-                        room.AddObject(fadeOutInstance);
+                    if (!lastWords) {
+                        player.mushroomCounter = 30;
+                    }
+                    
+                    
+                    if (cutsceneTimer >= 15 && fadeOutBlack == null) {
+
+                        fadeOutBlack = new FadeOut(room, Color.black, 3f, false);
+                        room.AddObject(fadeOutBlack);
                     }
 
-                    if (cutsceneTimer == 60) {
+                    if (fadeOutBlack != null && fadeOutBlack.IsDoneFading() && !lastWords) {
+                        
                         RoomCamera camera = room.game.cameras[0];
-                        camera.hud.AddPart(new ChatLogDisplay(camera.hud, finalMessage));
+                        ChatLogDisplay fauxFinalMessage = new ChatLogDisplay(camera.hud, finalMessage) {
+                            disable_fastDisplay = true
+                        };
+                        
+                        camera.hud.AddPart(fauxFinalMessage);
+
+                        lastWords = true;
+                    }
+
+                    if (lastWords) {
+                        bombTimer++;
+                    }
+
+                    if (bombTimer > 120 && !blowsUpSlugWithMind && fadeOutBlack != null) {
+                            
+                        fadeOutRed = new FadeOut(room, new Color(0.3f, 0f, 0f), 15f, false);
+                        room.AddObject(fadeOutRed);
+                        room.PlaySound(SoundID.Bomb_Explode);
+
+                        blowsUpSlugWithMind = true;
+                    }
+
+
+                    if (bombTimer > 240 && fadeOutRed != null) {
+                        fadeOutRed.fadeColor = Color.Lerp(fadeOutRed.fadeColor, new Color(0f, 0f, 0f, 1.0f), 0.05f);
+                    }
+
+
+                    if (bombTimer > 400) {
+                        SaveDataHelper.THESLUG_NOLOOSEENDS.SaveToCampaign(room.game.GetStorySession.saveState);
+                    
+                        room.game.GoToRedsGameOver();
+                        RainWorldGame.BeatGameMode(room.game, false);
+                        doneFinalSave = true;
                     }
                     
-                    if (fadeOutInstance == null || !fadeOutInstance.IsDoneFading() || doneFinalSave) {
-                        return;
-                    }
-                    
-                    
-                    
-                    
-                    
-                    SaveDataHelper.THESLUG_NOLOOSEENDS.SaveToCampaign(room.game.GetStorySession.saveState);
-                    
-                    room.game.GoToRedsGameOver();
-                    RainWorldGame.BeatGameMode(room.game, false);
-                    doneFinalSave = true;
                     
                 }
             }
