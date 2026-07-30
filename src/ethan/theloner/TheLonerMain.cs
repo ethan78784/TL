@@ -1,6 +1,7 @@
 using System;
 using System.Security.Permissions;
 using BepInEx;
+using BepInEx.Logging;
 using Menu;
 using RWCustom;
 using SlugBase;
@@ -20,24 +21,27 @@ namespace TL.ethan.theloner {
     [BepInPlugin(PLUGIN_GUID, PLUGIN_NAME, PLUGIN_VERSION)]
     public class TheLonerMain : BaseUnityPlugin {
         
-        public const string PLUGIN_GUID = "ethan.unfortunatecircumstances";
+        public new static ManualLogSource Logger { get; private set; }
+        
+        public const string PLUGIN_GUID = "ethan.lonescug";
         public const string PLUGIN_NAME = "The Loner";
         public const string PLUGIN_VERSION = "0.1.0";
         public bool initalized = false;
-
-        
         
         
         public void OnEnable() {
-            Debug.LogWarning("Initalizing!!");
+            Logger = base.Logger;
             
             // Only ever do this once– we set a flag past this point, and never run any of this again if that flag has been set
             // This is so tools like RainReloader don't double-subscribe to hooked functions, which would cause chaos
             if (initalized) return;
             initalized = true;
             
+            Logger.LogWarning("Initalizing!!");
+            
             // Hook subscribers
             OnHooks.Apply();
+            
             
 
         }

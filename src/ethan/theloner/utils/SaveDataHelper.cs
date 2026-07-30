@@ -5,6 +5,7 @@ namespace TL.ethan.theloner.utils {
     public class SaveDataHelper {
 
         public static readonly SaveDataHolder LONER_ASCEND = new SaveDataHolder("LONERASCEND");
+        public static readonly SaveDataHolder THESLUG_NOLOOSEENDS = new SaveDataHolder("NOLOOSEENDS");
         
         
 
@@ -22,35 +23,25 @@ namespace TL.ethan.theloner.utils {
             ///
             /// Note: can only save data to this campaign if the current campaign is a "story session"– basically, anything that isn't an expedition.
             /// </summary>
-            /// <param name="world">The campaign's world</param>
-            void SaveToCampaign(World world) {
+            /// <param name="state">The campaign's savestate instance</param>
+            public void SaveToCampaign(SaveState state) {
                 
-                if (world.game == null || !world.game.IsStorySession) {
-                    return;
-                }
-
-                SaveState worldSave = world.game.GetStorySession.saveState;
-                List<string> saveStrings = worldSave.unrecognizedSaveStrings;
+                List<string> saveStrings = state.unrecognizedSaveStrings;
 
                 if (!saveStrings.Contains(saveDataKey)) {
                     saveStrings.Add(saveDataKey);
                 }
                 
             }
-            
+
 
             /// <summary>
             /// Removes this flag from the current campaign. Does nothing if this flag doesn't exist in the save data for this campaign.
             /// </summary>
-            /// <param name="world">The campaign's world</param>
-            void DeleteFromCampaign(World world) {
+            /// <param name="state"></param>
+            public void DeleteFromCampaign(SaveState state) {
                 
-                if (world.game == null || !world.game.IsStorySession) {
-                    return;
-                }
-                
-                SaveState worldSave = world.game.GetStorySession.saveState;
-                List<string> saveStrings = worldSave.unrecognizedSaveStrings;
+                List<string> saveStrings = state.unrecognizedSaveStrings;
                 
                 if (saveStrings.Contains(saveDataKey)) {
                     saveStrings.Remove(saveDataKey);
@@ -61,17 +52,10 @@ namespace TL.ethan.theloner.utils {
             /// <summary>
             /// Gets the value of this piece of save data for the current campaign.
             /// </summary>
-            /// <param name="world">The world of this campaign.</param> 
+            /// <param name="state">The world of this campaign.</param> 
             /// <returns>true if the flag is present, false if it's absent or the game is not in a story session. </returns>
-            bool GetFlagInCampaign(World world) {
-                
-                if (world.game == null || !world.game.IsStorySession) {
-                    return false;
-                }
-
-                SaveState worldSave = world.game.GetStorySession.saveState;
-                List<string> saveStrings = worldSave.unrecognizedSaveStrings;
-
+            public bool GetFlagInCampaign(SaveState state) {
+                List<string> saveStrings = state.unrecognizedSaveStrings;
                 return saveStrings.Contains(saveDataKey);
             }
             

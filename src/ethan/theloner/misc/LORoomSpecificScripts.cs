@@ -1,24 +1,31 @@
 
 
+using System;
 using System.Collections.Generic;
+using MoreSlugcats;
 using RWCustom;
+using TL.ethan.theloner.utils;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 using Watcher;
+
 
 namespace TL.ethan.theloner.misc 
 {
     public static class LORoomSpecificScripts {
 
         // Dictionary of room names to an instance of the class responsible for this roomspecificscript
-        private static readonly Dictionary<string, UpdatableAndDeletable> _STORY_EVENTS = new Dictionary<string, UpdatableAndDeletable> {
-                { "PAC_OPEN", new LonerTestScript() }
+        private static readonly Dictionary<string, Func<UpdatableAndDeletable> > _STORY_EVENTS = new Dictionary<string, Func<UpdatableAndDeletable>> {
+                { "PAC_OPEN", () => new LonerTestScript() },
+                // Ending cutscene after collecting the broadcast token in Baring Horns
+                { "BAH_G01", () => new BaringHorns_EndScene() }
         };
         
         
         // This is called for every room in the game, which allows us to add scripts to run in specific rooms
         // (Identical to how it works in MSCRoomSpecificScript and its vanilla counterpart)
         public static void AddRoomSpecificScript(Room room) {
-
+            
             // This can be absent when loading sometimes!! Will lead to an infinite loop if not checked...
             if (room.game == null) {
                 return;
@@ -32,8 +39,8 @@ namespace TL.ethan.theloner.misc
                 // Add any scripts with keys that match the roomID
                 foreach (var entry in _STORY_EVENTS) {
                     if (roomID.Equals(entry.Key)) {
-                        Debug.LogWarning("Adding RoomSpecificScript for room \"" + entry.Key + "\"");
-                        room.AddObject(entry.Value);
+                        TheLonerMain.Logger.LogWarning("Adding RoomSpecificScript for room \"" + entry.Key + "\"");
+                        room.AddObject(entry.Value.Invoke());
                     }
                 }
                 
@@ -133,12 +140,12 @@ namespace TL.ethan.theloner.misc
                */
 
                if (!cutsceneTriggered && player.mainBodyChunk.pos.x > statueRange[0] && player.mainBodyChunk.pos.x < statueRange[1]) {
-                   Debug.LogWarning("Ooh pretty");
+                   // Debug.LogWarning("Ooh pretty");
                    //(player.graphicsModule as PlayerGraphics)?.LookAtPoint(new Vector2(1760, 500), 10f);
                }
 
                if (!cutsceneTriggered && player.mainBodyChunk.pos.x < statueRange[0]) {
-                   Debug.LogWarning("Stop here!");
+                   TheLonerMain.Logger.LogWarning("Stop here!");
                    // At the end of the statue range, stop
                    (player.graphicsModule as PlayerGraphics)?.LookAtPoint(new Vector2(player.mainBodyChunk.pos.x - 100, player.mainBodyChunk.pos.y), 10f);
                    cutsceneTriggered = true;
@@ -157,7 +164,7 @@ namespace TL.ethan.theloner.misc
                        }
                         // Override the player's controls with scripted ones
                        player.controller = new LTSStatueLookController(this, player);
-                       Debug.LogWarning("Entered cutscene!");
+                       TheLonerMain.Logger.LogWarning("Entered cutscene!");
                        
                    }
 
@@ -212,7 +219,7 @@ namespace TL.ethan.theloner.misc
                                camera.ExitCutsceneMode();
                                player.controller = null;
                                RainWorld.lockGameTimer = false;
-                               Debug.LogWarning("Exited cutscene!");
+                               TheLonerMain.Logger.LogWarning("Exited cutscene!");
                                this.Destroy();
                            }
                            
@@ -242,7 +249,7 @@ namespace TL.ethan.theloner.misc
                         if (player.canJump > 0 && jumpTimer == 0) {
                             jump = true;
                             jumpCount++;
-                            Debug.LogWarning("Boing!");
+                            TheLonerMain.Logger.LogWarning("Boing!");
                             jumpTimer = 30; // Hold down jump for a little less than a full second to get full height
                         }
                     }
@@ -273,6 +280,71 @@ namespace TL.ethan.theloner.misc
 
                 public override Player.InputPackage GetInput() {
                     return this.owner.GetInput();
+                }
+            }
+        }
+
+        private class BaringHorns_EndScene : UpdatableAndDeletable {
+
+            private const float fadeoutDuration = 200f;
+            private readonly Color fadeoutColor = Color.black;
+            private readonly string[] finalMessage = { "<#732e2c>TID: I'm sorry." };
+            
+            private Player player;
+            
+            private FadeOut fadeOutInstance;
+            
+            
+            private bool isInBroadcast;
+            private bool doneFinalSave;
+
+            private int cutsceneTimer = 0;
+
+            public override void Update(bool eu) {
+                base.Update(eu);
+
+
+                if (player == null) {
+                    player = CutsceneUtils.getPlayerFromRoom(room);
+                    if (player == null) {
+                        return;
+                    }
+                }
+
+                // Get the chatlog once, when they collect the token
+                if (!isInBroadcast && player.chatlog) {
+                    isInBroadcast = true;
+                    Debug.LogWarning(player.chatlogID);
+                }
+
+                if (isInBroadcast && !player.chatlog) {
+                    cutsceneTimer++;
+                    player.Stun(25);
+
+                    if (fadeOutInstance == null) {
+                        fadeOutInstance = new FadeOut(room, fadeoutColor, fadeoutDuration, false);
+                        room.AddObject(fadeOutInstance);
+                    }
+
+                    if (cutsceneTimer == 60) {
+                        RoomCamera camera = room.game.cameras[0];
+                        camera.hud.AddPart(new ChatLogDisplay(camera.hud, finalMessage));
+                    }
+                    
+                    if (fadeOutInstance == null || !fadeOutInstance.IsDoneFading() || doneFinalSave) {
+                        return;
+                    }
+                    
+                    
+                    
+                    
+                    
+                    SaveDataHelper.THESLUG_NOLOOSEENDS.SaveToCampaign(room.game.GetStorySession.saveState);
+                    
+                    room.game.GoToRedsGameOver();
+                    RainWorldGame.BeatGameMode(room.game, false);
+                    doneFinalSave = true;
+                    
                 }
             }
         }
