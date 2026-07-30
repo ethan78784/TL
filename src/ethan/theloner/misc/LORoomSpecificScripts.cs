@@ -321,21 +321,26 @@ namespace TL.ethan.theloner.misc
                     Debug.LogWarning(player.chatlogID);
                 }
 
+                // Once the chatlog has ended, after we know it's started, start the scene.
                 if (isInBroadcast && !player.chatlog) {
                     cutsceneTimer++;
+                    
+                    // Keep the player stunned for the whole thing (since normally they'd get unstunned after the chatlog ends)
                     player.Stun(25);
 
+                    // And keep the mushroom slow from the chatlog, too, if the last line of dialogue hasnt been displayed yet
                     if (!lastWords) {
                         player.mushroomCounter = 30;
                     }
                     
                     
+                    // After a bit of time (to give the chatlog some time to fully fade out), do a very quick fade-to-black
                     if (cutsceneTimer >= 15 && fadeOutBlack == null) {
-
                         fadeOutBlack = new FadeOut(room, Color.black, 3f, false);
                         room.AddObject(fadeOutBlack);
                     }
 
+                    // Once the fade to black is done, write a faux, lone chatlog message with the final line
                     if (fadeOutBlack != null && fadeOutBlack.IsDoneFading() && !lastWords) {
                         
                         RoomCamera camera = room.game.cameras[0];
@@ -348,10 +353,13 @@ namespace TL.ethan.theloner.misc
                         lastWords = true;
                     }
 
+                    // Tick up another timer with a mysterious and unknown purpose after we display the last line of dialogue
                     if (lastWords) {
                         bombTimer++;
                     }
 
+                    // Once the second timer hits 1 second (a little more than that, since mushroom effect is still active),
+                    // end the campaign with a bang.
                     if (bombTimer > 60 && !blowsUpSlugWithMind && fadeOutBlack != null) {
                             
                         fadeOutRed = new FadeOut(room, new Color(0.3f, 0f, 0f), 15f, false);
@@ -362,11 +370,13 @@ namespace TL.ethan.theloner.misc
                     }
 
 
+                    // Start slowly fading the red fadeout to be fully transparent, leaving just the black one still in the background
                     if (bombTimer > 120 && fadeOutRed != null) {
                         fadeOutRed.fadeColor = Color.Lerp(fadeOutRed.fadeColor, new Color(0f, 0f, 0f, 1.0f), 0.05f);
                     }
 
 
+                    // At the end of the scene, save the game, set the campaign-ended flag, and go to the statistics screen
                     if (bombTimer > 200) {
                         SaveDataHelper.THESLUG_NOLOOSEENDS.SaveToCampaign(room.game.GetStorySession.saveState);
                     

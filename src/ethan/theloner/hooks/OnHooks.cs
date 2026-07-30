@@ -22,12 +22,14 @@ namespace TL.ethan.theloner.hooks {
             // RoomSpecificScripts
             On.Room.Loaded += OnLoadRoom;
 
-            // Locking slugcat selection menu when Loner ascends
+            // Locking slugcat selection menu for The Loner or The Slug when either of their campaigns are complete
             On.Menu.SlugcatSelectMenu.ctor += SlugcatSelectMenu_Init;
             On.Menu.SlugcatSelectMenu.UpdateStartButtonText += SlugcatSelectMenu_UpdateStartButtonText;
             On.Menu.SlugcatSelectMenu.ContinueStartedGame += SlugcatSelectMenu_ContinueStartedGame;
-
             On.Menu.StoryGameStatisticsScreen.CommunicateWithUpcomingProcess += StoryGameStatisticsScreen_CommunicateWithUpcomingProcess;
+            
+            // Replacing the default sleep-screen background with a custom one for The Slug's ending
+            On.Menu.StoryGameStatisticsScreen.AddBkgIllustration += StoryGameStatisticScreen_AddBkgIllustration;
             hooksEnabled = true;
         }
 
@@ -48,6 +50,7 @@ namespace TL.ethan.theloner.hooks {
             On.Menu.SlugcatSelectMenu.ContinueStartedGame -= SlugcatSelectMenu_ContinueStartedGame;
             
             On.Menu.StoryGameStatisticsScreen.CommunicateWithUpcomingProcess -= StoryGameStatisticsScreen_CommunicateWithUpcomingProcess;
+            On.Menu.StoryGameStatisticsScreen.AddBkgIllustration -= StoryGameStatisticScreen_AddBkgIllustration;
 
             hooksEnabled = false;
         }
@@ -130,6 +133,7 @@ namespace TL.ethan.theloner.hooks {
         }
 
 
+        /// When going from the game-over statistics screen back to the main menu, sets the flags that lock The Slug or The Loner's campaign (since otherwise they wont be locked until the main menu screen is re-created on game startup(?)_
         private static void StoryGameStatisticsScreen_CommunicateWithUpcomingProcess(On.Menu.StoryGameStatisticsScreen.orig_CommunicateWithUpcomingProcess originalCall, StoryGameStatisticsScreen self, MainLoopProcess nextProcess) {
             originalCall(self, nextProcess);
 
@@ -137,6 +141,24 @@ namespace TL.ethan.theloner.hooks {
                 menu.slugcatPageIndex = menu.indexFromColor(_THESLUG_ID);
                 isSlugPurposeFulfilled = SaveDataHelper.THESLUG_NOLOOSEENDS.GetFlagInCampaign(self.saveState);
                 menu.UpdateSelectedSlugcatInMiscProg();
+            }
+        }
+
+        /// When viewing The Slug's statistics after their non-ascension ending, replace the default sleep-screen background with a custom one (empty for now)
+        private static void StoryGameStatisticScreen_AddBkgIllustration(On.Menu.StoryGameStatisticsScreen.orig_AddBkgIllustration originalCall, StoryGameStatisticsScreen self) {
+            
+            if (RainWorld.lastActiveSaveSlot == _THESLUG_ID) {
+                
+                if (SaveDataHelper.THESLUG_NOLOOSEENDS.GetFlagInCampaign(self.saveState)) {
+                    self.scene = new InteractiveMenuScene(self, self.pages[0], MenuScene.SceneID.Empty);
+                    self.pages[0].subObjects.Add(self.scene);
+                }   
+                else {
+                    originalCall(self);
+                }
+            }
+            else {
+                originalCall(self);
             }
         }
     }
