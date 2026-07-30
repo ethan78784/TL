@@ -1,1 +1,1 @@
-[ADD]GATE_PAC_SB : 1 : 3
+[ADD]GATE_PAC_SU : 3 : 3

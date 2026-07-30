@@ -1,3 +1,7 @@
 [ADD]SlugcatMeowLoner/dopplerFac=0/rangeFac=1 : LoneMeow1/vol=0.6/maxPitch=1.1/minPitch=0.9, LoneMeow2/vol=0.6/maxPitch=1.1/minPitch=0.9
 
 [ADD]SlugcatMeowLonerShort/dopplerFac=0/rangeFac=1 : LoneMeowShort/vol=0.6/maxPitch=1.1/minPitch=0.9
+
+[ADD]SlugcatMeowSlugShort/dopplerFac=0/rangeFac=1 : SlugMeowShort1/vol=0.6/maxPitch=1.1/minPitch=0.9, SlugMeowShort2/vol=0.6/maxPitch=1.1/minPitch=0.9, SlugMeowShort3/vol=0.6/maxPitch=1.1/minPitch=0.9
+
+[ADD]SlugcatMeowSlug/dopplerFac=0/rangeFac=1 : SlugMeow1/vol=0.6/maxPitch=1.1/minPitch=0.9, SlugMeow3/vol=0.6/maxPitch=1.1/minPitch=0.9
