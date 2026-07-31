@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using MoreSlugcats;
 using RWCustom;
+using TL.ethan.theloner.cutscene;
 using TL.ethan.theloner.utils;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
@@ -389,7 +390,19 @@ namespace TL.ethan.theloner.misc
                 }
             }
         }
-        
+
+        private class TestScene : UpdatableAndDeletable {
+
+            private ScriptedScene cutsceneHelper;
+
+            private List<SceneActions.GenericSceneAction> actions = new List<SceneActions.GenericSceneAction> {
+                new SceneActions.GenericSceneAction(testmethod, 100)
+            };
+
+            static void testmethod() {
+                
+            }
+        }
         
     } 
 }

@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace TL.ethan.theloner.utils {
+namespace TL.ethan.theloner.cutscene {
     
     public static class CutsceneUtils {
 
@@ -21,6 +21,8 @@ namespace TL.ethan.theloner.utils {
             return player;
 
         }
+        
+        
         
         
         
