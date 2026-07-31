@@ -57,7 +57,7 @@ namespace TL.ethan.theloner.cutscene {
                     currentAction.lastRun = true;
                 }
                 
-                currentAction.runner();
+                currentAction.RunStep();
             }
             
             

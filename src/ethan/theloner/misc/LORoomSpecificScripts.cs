@@ -396,7 +396,9 @@ namespace TL.ethan.theloner.misc
             private ScriptedScene cutsceneHelper;
 
             private List<SceneActions.GenericSceneAction> actions = new List<SceneActions.GenericSceneAction> {
-                new SceneActions.GenericSceneAction(testmethod, 100)
+                new SceneActions.GenericSceneAction(action => SceneActions.LookAtPoint(action, new Vector2(20, 20)) ,100) {
+                    
+                }
             };
 
             static void testmethod() {

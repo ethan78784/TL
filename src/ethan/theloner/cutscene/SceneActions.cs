@@ -1,4 +1,5 @@
 using System;
+using MonoMod.Cil;
 using UnityEngine;
 
 namespace TL.ethan.theloner.cutscene {
@@ -14,49 +15,29 @@ namespace TL.ethan.theloner.cutscene {
             public int duration;
             public int sceneTimer;
 
-            public Action runner;
+            public Action<GenericSceneAction> runner;
 
             public ScriptedScene ownerScene;
 
             public bool lastRun = false;
             
-            public GenericSceneAction(Action runner, int duration) {
+            public GenericSceneAction(Action<GenericSceneAction> runner, int duration) {
                 this.duration = duration;
                 this.runner = runner;
             }
 
             public virtual void RunStep() {
-                runner.Invoke();
+                runner.Invoke(this);
                 sceneTimer++;
             }
 
             
-            private ScriptedScene.CutscenePlayerController takeControl() {
+            public ScriptedScene.CutscenePlayerController takeControl() {
                 ScriptedScene.CutscenePlayerController controller = new ScriptedScene.CutscenePlayerController();
                 ownerScene.player.controller = controller;
                 return controller;
             }
-
-
-            public void MoveLeft() {
-                if (ownerScene.controller == null) {
-                    ownerScene.controller = takeControl();
-                }
-                ownerScene.controller.movementX = -1;
-            }
             
-            public void MoveRight() {
-                if (ownerScene.controller == null) {
-                    ownerScene.controller = takeControl();
-                }
-                ownerScene.controller.movementX = 1;
-            }
-            
-            public void LookUp() {
-                Player player = ownerScene.player;
-                Vector2 pos = player.mainBodyChunk.pos;
-                ((PlayerGraphics) ownerScene.player.graphicsModule).LookAtPoint(new Vector2(pos.x, pos.y + 100f), 100f);
-            }
     
         }
 
@@ -66,7 +47,7 @@ namespace TL.ethan.theloner.cutscene {
         /// </summary>
         public class RunOnceSceneAction : GenericSceneAction {
             
-            public RunOnceSceneAction(Action runner, int duration) : base(runner, duration) {}
+            public RunOnceSceneAction(Action<GenericSceneAction> runner, int duration) : base(runner, duration) {}
 
             public override void RunStep() {
                 if (sceneTimer == 0) {
@@ -75,5 +56,33 @@ namespace TL.ethan.theloner.cutscene {
             }
         }
         
+        
+        
+        public static void MoveLeft(GenericSceneAction self) {
+            if (self.ownerScene.controller == null) {
+                self.ownerScene.controller = self.takeControl();
+            }
+            self.ownerScene.controller.movementX = -1;
+        }
+            
+        public static void MoveRight(GenericSceneAction self) {
+            if (self.ownerScene.controller == null) {
+                self.ownerScene.controller = self.takeControl();
+            }
+            self.ownerScene.controller.movementX = 1;
+        }
+            
+        public static void LookUp(GenericSceneAction self) {
+            Player player = self.ownerScene.player;
+            Vector2 pos = player.mainBodyChunk.pos;
+            ((PlayerGraphics) self.ownerScene.player.graphicsModule).LookAtPoint(new Vector2(pos.x, pos.y + 100f), 100f);
+        }
+        
+        public static void LookAtPoint(GenericSceneAction self, Vector2 point) {
+            ((PlayerGraphics) self.ownerScene.player.graphicsModule).LookAtPoint(point, 100f);
+        }
+        
+        
     }
+    
 }
