@@ -9,6 +9,7 @@ using TL.ethan.theloner.utils;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
 using Watcher;
+using static TL.ethan.theloner.cutscene.SceneActions;
 
 
 namespace TL.ethan.theloner.misc 
@@ -286,6 +287,15 @@ namespace TL.ethan.theloner.misc
         }
 
         private class BaringHorns_EndScene : UpdatableAndDeletable {
+
+            private const string chatlogID = "Sorry";
+            
+            // TODO: Load this from a txt file to make it easier to modify?
+            private readonly string[] secondMessages = {
+                "<#732e2c>TID: Little slug...?",
+                "<#732e2c>TID: Thank you.",
+                "<#732e2c>TID: And..."
+            };
             
             private readonly string[] finalMessage = { "<#732e2c>TID: I'm sorry." };
             
@@ -294,16 +304,22 @@ namespace TL.ethan.theloner.misc
             private FadeOut fadeOutBlack;
             private FadeOut fadeOutRed;
             
-            
             private bool isInBroadcast;
             private bool doneFinalSave;
 
+
+            private bool sceneStarted;
+            private bool secondParagraph;
             private bool lastWords;
+            
             
             private bool blowsUpSlugWithMind;
 
             private int cutsceneTimer = 0;
+            private int lastWordsTimer = 0;
             private int bombTimer = 0;
+            
+            
 
             public override void Update(bool eu) {
                 base.Update(eu);
@@ -317,41 +333,68 @@ namespace TL.ethan.theloner.misc
                 }
 
                 // Get the chatlog once, when they collect the token
-                if (!isInBroadcast && player.chatlog) {
+                if (!isInBroadcast && player.chatlog && player.chatlogID.value == chatlogID) {
                     isInBroadcast = true;
-                    Debug.LogWarning(player.chatlogID);
                 }
 
+                if (isInBroadcast && !player.chatlog && !sceneStarted) {
+                    sceneStarted = true;
+                    // Chatlogs have a special kind of slowdown I kinda want to keep for the following faux-chatlogs in this scene
+                    // (chatlogcounter has to be set to 0 or it'll immediately kick the player out of chatlog mode again)
+                    
+                    // temp disabled until I'm ready to fully implement this
+                    //player.chatlog = true;
+                    //player.chatlogCounter = 0; 
+                }
+                
                 // Once the chatlog has ended, after we know it's started, start the scene.
-                if (isInBroadcast && !player.chatlog) {
+                if (sceneStarted) {
+                    Debug.LogWarning(cutsceneTimer);
                     cutsceneTimer++;
                     
                     // Keep the player stunned for the whole thing (since normally they'd get unstunned after the chatlog ends)
                     player.Stun(25);
+                    
 
                     // And keep the mushroom slow from the chatlog, too, if the last line of dialogue hasnt been displayed yet
                     if (!lastWords) {
-                        player.mushroomCounter = 30;
+                        player.mushroomCounter = 20;
                     }
                     
                     
+                    // The chatlog was getting a little wordy, so I'm trying out putting the second half of it in its own "page"
+                    if (cutsceneTimer >= 15 && !secondParagraph) {
+                        
+                        RoomCamera camera = room.game.cameras[0];
+                        // NOTE: Interestingly, spawning a chatlog like this "pauses" the cutscene– since I believe this sets player.chatlog,
+                        // which we only run the scene if that's false, to detect when the first chatlog has ended.
+                        // Interesting oversight on my part, but it does make it easier to time things with the player potentially fast-forwarding parts of the chatlog.
+                        ChatLogDisplay secondMessageDisplay = camera.hud.InitChatLog(secondMessages);
+                        
+                        
+                        secondParagraph = true;
+                    }
+                    
                     // After a bit of time (to give the chatlog some time to fully fade out), do a very quick fade-to-black
-                    if (cutsceneTimer >= 15 && fadeOutBlack == null) {
+                    if (cutsceneTimer >= 25 && fadeOutBlack == null) {
                         fadeOutBlack = new FadeOut(room, Color.black, 3f, false);
                         room.AddObject(fadeOutBlack);
                     }
 
                     // Once the fade to black is done, write a faux, lone chatlog message with the final line
                     if (fadeOutBlack != null && fadeOutBlack.IsDoneFading() && !lastWords) {
-                        
-                        RoomCamera camera = room.game.cameras[0];
-                        ChatLogDisplay fauxFinalMessage = new ChatLogDisplay(camera.hud, finalMessage) {
-                            disable_fastDisplay = true
-                        };
-                        
-                        camera.hud.AddPart(fauxFinalMessage);
+                        lastWordsTimer++;
 
-                        lastWords = true;
+                        if (lastWordsTimer > 10) {
+                            fadeOutBlack.freezeFade = true; // Trying to fix the fadeout momentarily bugging out
+                        
+                            RoomCamera camera = room.game.cameras[0];
+                            ChatLogDisplay fauxFinalMessage = camera.hud.InitChatLog(finalMessage);
+                            fauxFinalMessage.disable_fastDisplay = true;
+                            
+                            lastWords = true;
+                        }
+                        
                     }
 
                     // Tick up another timer with a mysterious and unknown purpose after we display the last line of dialogue
@@ -361,11 +404,11 @@ namespace TL.ethan.theloner.misc
 
                     // Once the second timer hits 1 second (a little more than that, since mushroom effect is still active),
                     // end the campaign with a bang.
-                    if (bombTimer > 60 && !blowsUpSlugWithMind && fadeOutBlack != null) {
+                    if (bombTimer > 20 && !blowsUpSlugWithMind && fadeOutBlack != null) {
                             
-                        fadeOutRed = new FadeOut(room, new Color(0.3f, 0f, 0f), 15f, false);
+                        fadeOutRed = new FadeOut(room, new Color(0.3f, 0f, 0f), 2f, false);
                         room.AddObject(fadeOutRed);
-                        room.PlaySound(SoundID.Bomb_Explode, player.mainBodyChunk, false, 2.0f, 1.0f);
+                        room.PlaySound(SoundID.Bomb_Explode, player.mainBodyChunk, false, 2.5f, 1.0f);
 
                         blowsUpSlugWithMind = true;
                     }
@@ -373,12 +416,12 @@ namespace TL.ethan.theloner.misc
 
                     // Start slowly fading the red fadeout to be fully transparent, leaving just the black one still in the background
                     if (bombTimer > 120 && fadeOutRed != null) {
-                        fadeOutRed.fadeColor = Color.Lerp(fadeOutRed.fadeColor, new Color(0f, 0f, 0f, 1.0f), 0.05f);
+                        fadeOutRed.fadeColor = Color.Lerp(fadeOutRed.fadeColor, new Color(0f, 0f, 0f, 1.0f), 1f);
                     }
 
 
                     // At the end of the scene, save the game, set the campaign-ended flag, and go to the statistics screen
-                    if (bombTimer > 200) {
+                    if (bombTimer > 200 && !doneFinalSave) {
                         SaveDataHelper.THESLUG_NOLOOSEENDS.SaveToCampaign(room.game.GetStorySession.saveState);
                     
                         room.game.GoToRedsGameOver();
@@ -391,20 +434,7 @@ namespace TL.ethan.theloner.misc
             }
         }
 
-        private class TestScene : UpdatableAndDeletable {
-
-            private ScriptedScene cutsceneHelper;
-
-            private List<SceneActions.GenericSceneAction> actions = new List<SceneActions.GenericSceneAction> {
-                new SceneActions.GenericSceneAction(action => SceneActions.LookAtPoint(action, new Vector2(20, 20)) ,100) {
-                    
-                }
-            };
-
-            static void testmethod() {
-                
-            }
-        }
+        
         
     } 
 }

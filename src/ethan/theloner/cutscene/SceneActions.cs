@@ -3,7 +3,7 @@ using MonoMod.Cil;
 using UnityEngine;
 
 namespace TL.ethan.theloner.cutscene {
-    public class SceneActions {
+    public static class SceneActions {
         
         
         
@@ -20,8 +20,12 @@ namespace TL.ethan.theloner.cutscene {
             public ScriptedScene ownerScene;
 
             public bool lastRun = false;
+
+            public GenericSceneAction() {
+                
+            }
             
-            public GenericSceneAction(Action<GenericSceneAction> runner, int duration) {
+            public GenericSceneAction(int duration, Action<GenericSceneAction> runner) {
                 this.duration = duration;
                 this.runner = runner;
             }
@@ -47,7 +51,7 @@ namespace TL.ethan.theloner.cutscene {
         /// </summary>
         public class RunOnceSceneAction : GenericSceneAction {
             
-            public RunOnceSceneAction(Action<GenericSceneAction> runner, int duration) : base(runner, duration) {}
+            public RunOnceSceneAction(int duration, Action<GenericSceneAction> runner) : base(duration, runner) {}
 
             public override void RunStep() {
                 if (sceneTimer == 0) {

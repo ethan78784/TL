@@ -48,6 +48,9 @@
         <Reference Include="MonoMod.Utils">
           <HintPath>..\..\..\..\Library\Application Support\Steam\steamapps\common\Rain World\BepInEx\core\MonoMod.Utils.dll</HintPath>
         </Reference>
+        <Reference Include="RegionKit">
+          <HintPath>..\..\..\..\Library\Application Support\Steam\steamapps\workshop\content\312520\2920439476\plugins\RegionKit.dll</HintPath>
+        </Reference>
         <Reference Include="SlugBase">
           <HintPath>..\..\..\..\Library\Application Support\Steam\steamapps\workshop\content\312520\2933196558\newest\plugins\SlugBase.dll</HintPath>
         </Reference>
