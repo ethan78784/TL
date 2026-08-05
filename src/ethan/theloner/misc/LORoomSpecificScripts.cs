@@ -349,7 +349,7 @@ namespace TL.ethan.theloner.misc
                 
                 // Once the chatlog has ended, after we know it's started, start the scene.
                 if (sceneStarted) {
-                    Debug.LogWarning(cutsceneTimer);
+                    //Debug.LogWarning(cutsceneTimer);
                     cutsceneTimer++;
                     
                     // Keep the player stunned for the whole thing (since normally they'd get unstunned after the chatlog ends)
